@@ -527,5 +527,157 @@ This facilitates access according to the user type.
     * Safety
 
 
+# 4.3. Landing Page UI Design
 
+The landing page of **Regula** is designed following a clear structure focused on **User Experience (UX)** and **conversion**, directly communicating the system’s value proposition.
+
+---
+
+## Main Structure
+
+### Hero Section
+- Main title (*value proposition*)
+- Brief system description
+- CTA buttons (*Call To Action*):
+    - “Get Started”
+    - “Learn More”
+- Representative image of the system (dashboard + IoT)
+
+---
+
+### Problem & Solution Section
+- Identification of problems:
+    - Gas leaks
+    - Manual control
+    - Lack of traceability
+- Presentation of the solution:
+    - Real-time monitoring
+    - Centralized web platform
+
+---
+
+### Features Section
+Visualization in UI cards (*cards UI*) of functionalities:
+- Real-time monitoring
+- Inventory registration
+- Delivery tracking (*tracking*)
+- Automatic alerts
+
+---
+
+### Pricing Section
+- Plans:
+    - Basic
+    - Standard
+    - Premium
+- CTA buttons:
+    - “Choose Plan”
+
+---
+
+### Contact Section
+- Contact form (*form UI*)
+- Button:
+    - “Send” (lead generation)
+
+---
+
+### Footer
+- Secondary navigation links (*footer navigation*)
+- Legal information
+- Social media
+
+---
+
+## Design Aspects (UI/UX)
+
+- **Responsive** design (adaptable to mobile and desktop)
+- Intuitive navigation (*user-friendly navigation*)
+- Use of functional colors:
+    - Red → alerts
+    - Blue → primary actions
+    - Green → confirmations
+- Structure based on **visual hierarchy** to facilitate reading
+
+### 4.3.1. Landing Page Wireframe
+<img src="">
+
+### 4.3.2. Landing Page Mock-up
+<img src="">
+
+## 4.4. Web Applications UX/UI Design
+
+The UX/UI design of the **Regula** web application is focused on facilitating **operational control, safety supervision, and gas cylinder management** in a fast and intuitive way.
+
+---
+
+### Application Structure (UI)
+
+#### **Dashboard**
+
+* Main view with key metrics (**KPIs**)
+* Visualization of active alerts, inventory, and overall status
+
+---
+
+#### **Inventory Module**
+
+* Gas cylinder entry and exit registration
+* Data table (*data table*) with filters and search
+
+---
+
+#### **Alerts Module**
+
+* Real-time notifications (*real-time alerts*)
+* Classification by risk level (priority)
+
+---
+
+#### **Distribution Module**
+
+* Delivery tracking (*tracking*)
+* Route and location visualization
+
+---
+
+#### **Reports Module**
+
+* Movement history
+* Report generation for analysis
+
+---
+
+### UX Aspects (User Experience)
+
+* **Intuitive interface:**
+  Reduces the learning curve
+
+* **Quick access:**
+  Priority to critical functions (alerts and monitoring)
+
+* **Efficiency:**
+  Minimization of steps in frequent tasks
+
+* **Immediate visual feedback:**
+  Confirmations, errors, and real-time alerts
+
+---
+
+### UI Aspects (User Interface)
+
+* **Clean design:**
+  Clear visual hierarchy (*visual hierarchy*)
+
+* **Use of functional colors:**
+
+    * Red → critical alerts
+    * Yellow → warnings
+    * Green → normal states
+
+* **Reusable components:**
+  Buttons, tables, forms
+
+* **Responsive design:**
+  Adaptable to different devices
 
