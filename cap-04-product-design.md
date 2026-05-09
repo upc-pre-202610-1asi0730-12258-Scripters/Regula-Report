@@ -600,10 +600,11 @@ Visualization in UI cards (*cards UI*) of functionalities:
 - Structure based on **visual hierarchy** to facilitate reading
 
 ### 4.3.1. Landing Page Wireframe
-<img src="">
+<img src=".\assets\images\cap-04\landing-page\wireframes\landing-page-wireframes.png">
 
 ### 4.3.2. Landing Page Mock-up
-<img src="">
+<img src=".\assets\images\cap-04\landing-page\mockups\landing-page-mockups.png">
+
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -681,3 +682,168 @@ The UX/UI design of the **Regula** web application is focused on facilitating **
 * **Responsive design:**
   Adaptable to different devices
 
+## 4.4.1. Web Applications Wireframes
+
+**Segment: Gas Companies**
+
+The wireframes for this segment are designed considering users such as plant supervisors and warehouse operators, prioritizing alert visibility and inventory control.
+
+### Key Screens
+
+* **Main Dashboard:**
+  Panel with KPIs (active alerts, inventory level, sensor status).
+  Highlighted section for real-time critical alerts.
+
+* **Inventory Management:**
+  Table-style view with a list of gas cylinders.
+  Quick actions: *Register Entry*, *Register Exit*, *Filter*.
+
+* **Alerts Panel:**
+  List of alerts classified by priority.
+  Main button: *“Handle Alert”*.
+
+* **Operational Monitoring:**
+  Monitoring view of sensors and warehouse status.
+
+* **Reports:**
+  Filterable history by dates and event type.
+
+---
+
+### Wireframe Characteristics
+
+* Layout based on a **12-column grid**
+* Use of **cards** to group information
+* Fixed sidebar for main navigation
+* Visual prioritization of critical alerts
+* Consistent components throughout the application
+
+These wireframes aim to ensure a clear, fast, and decision-oriented operational experience.
+
+#### Segment: Gas Companies
+
+![company-wireframes1.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-01.png)
+![company-wireframes2.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-02.png)
+![company-wireframes3.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-03.png)
+![company-wireframes4.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-04.png)
+![company-wireframes5.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-05.png)
+![company-wireframes6.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-06.png)
+![company-wireframes7.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-07.png)
+![company-wireframes8.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-08.png)
+![company-wireframes9.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-09.png)
+![company-wireframes10.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-10.png)
+![company-wireframes11.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-11.png)
+![company-wireframes12.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-12.png)
+![company-wireframes13.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-13.png)
+![company-wireframes14.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-14.png)
+![company-wireframes15.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-15.png)
+![company-wireframes16.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-16.png)
+![company-wireframes17.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-17.png)
+![company-wireframes18.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-18.png)
+![company-wireframes19.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-19.png)
+![company-wireframes20.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-20.png)
+![company-wireframes21.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-21.png)
+![company-wireframes22.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-22.png)
+![company-wireframes23.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-23.png)
+![company-wireframes24.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-24.pngg)
+![company-wireframes25.png](.\assets\images\cap-04\web-application\wireframes\company\company-wireframes-25.png)
+
+---
+
+## Segment: Gas Distributors
+
+![distributor-wireframes1.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-01.png)
+![distributor-wireframes2.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-02.png)
+![distributor-wireframes3.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-03.png)
+![distributor-wireframes4.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-04.png)
+![distributor-wireframes5.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-05.png)
+![distributor-wireframes6.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-06.png)
+![distributor-wireframes7.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-07.png)
+![distributor-wireframes8.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-08.png)
+![distributor-wireframes9.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-09.png)
+![distributor-wireframes10.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-10.png)
+![distributor-wireframes11.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-11.png)
+![distributor-wireframes12.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-12.png)
+![distributor-wireframes13.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-13.png)
+![distributor-wireframes14.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-14.png)
+![distributor-wireframes15.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-15.png)
+![distributor-wireframes16.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-16.png)
+![distributor-wireframes17.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-17.png)
+![distributor-wireframes18.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-18.png)
+![distributor-wireframes19.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-19.png)
+![distributor-wireframes20.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-20.png)
+![distributor-wireframes21.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-21.png)
+![distributor-wireframes22.png](.\assets\images\cap-04\web-application\wireframes\distributor\distributor-wireframes-22.png)
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+![Wireflow-01.png](.\assets\images\cap-04\web-application\wireflows-diagrams\wireflow-diagram-01.png)
+
+---
+
+### 4.4.2. Web Applications Mock-ups
+
+#### Segment: Gas Companies
+
+![company-mockup1.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-01.png)
+![company-mockup2.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-02.png)
+![company-mockup3.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-03.png)
+![company-mockup4.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-04.png)
+![company-mockup5.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-05.png)
+![company-mockup6.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-06.png)
+![company-mockup7.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-07.png)
+![company-mockup8.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-08.png)
+![company-mockup9.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-09.png)
+![company-mockup10.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-10.png)
+![company-mockup11.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-11.png)
+![company-mockup12.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-12.png)
+![company-mockup13.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-13.png)
+![company-mockup14.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-14.png)
+![company-mockup15.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-15.png)
+![company-mockup16.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-16.png)
+![company-mockup17.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-17.png)
+![company-mockup18.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-18.png)
+![company-mockup19.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-19.png)
+![company-mockup20.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-20.png)
+![company-mockup21.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-21.png)
+![company-mockup22.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-22.png)
+![company-mockup23.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-23.png)
+![company-mockup24.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-24.png)
+![company-mockup25.png](.\assets\images\cap-04\web-application\mockups\company\company-mockup-25.png)
+
+#### Segment: Gas Distributors
+
+![distributor-mockup1.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-01.png)
+![distributor-mockup2.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-02.png)
+![distributor-mockup3.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-03.png)
+![distributor-mockup4.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-04.png)
+![distributor-mockup5.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-05.png)
+![distributor-mockup6.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-06.png)
+![distributor-mockup7.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-07.png)
+![distributor-mockup8.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-08.png)
+![distributor-mockup9.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-09.png)
+![distributor-mockup10.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-10.png)
+![distributor-mockup11.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-11.png)
+![distributor-mockup12.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-12.png)
+![distributor-mockup13.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-13.png)
+![distributor-mockup14.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-14.png)
+![distributor-mockup15.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-15.png)
+![distributor-mockup16.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-16.png)
+![distributor-mockup17.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-17.png)
+![distributor-mockup18.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-18.png)
+![distributor-mockup19.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-19.png)
+![distributor-mockup20.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-20.png)
+![distributor-mockup21.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-21.png)
+![distributor-mockup22.png](.\assets\images\cap-04\web-application\mockups\distributor\distributors-mockup-22.png)
+
+### 4.4.3. Web Applications User Flow Diagrams
+
+#### Segment: Gas Companies
+
+![user-company.png](.\assets\images\cap-04\web-application\user-flow-diagrams\company\user-flow-company.png)
+
+#### Segment: Gas Distributors
+
+![user-distributor.png](.\assets\images\cap-04\web-application\user-flow-diagrams\distributor\user-flow-distributor.png)
+
+---
