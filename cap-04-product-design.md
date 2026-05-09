@@ -247,6 +247,285 @@ Specific use case: Gas cylinder codes, operation IDs, technical timestamps, and 
 
 
 
+## 4.2. Information Architecture
+
+Regula’s Information Architecture has been designed with the goal of organizing content in a clear, intuitive, and efficient manner, allowing both gas companies and distributors to quickly access the system’s key functionalities. Since users have a low level of digitalization and are accustomed to manual processes, the structure prioritizes simplicity, speed, and visibility of critical information.
+
+## 4.2.1. Organization Systems
+
+* **Hierarchical:**
+  Organized from the most important elements (**operational safety, gas leak detection, and initial CTA**) to the most detailed ones (**subscription plans, FAQ, and contact**).
+
+* **Sequential:**
+  Follows a natural flow:
+  **What it is → Who we are → Solutions → Features → Pricing → Contact**.
+
+* **By audience:**
+  Clear differentiation between:
+
+    * **Gas bottling companies:** warehouse monitoring and cylinder control.
+    * **Distributors:** daily inventory management, deliveries, and collections.
+
+* **By functionality:**
+  Grouping of technical capabilities:
+
+    * Gas leak detection with IoT sensors
+    * Gas cylinder entry and exit registration
+    * Real-time delivery tracking
+
+---
+
+### Site Structure
+
+| Topic | Definition |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Home** | General overview of the platform, highlighting leak monitoring, inventory control, and real-time tracking, together with the main CTA. |
+| **Solutions** | Differentiates segments: gas bottling companies (warehouses and alerts) and distributors (inventory, deliveries, and collections). |
+| **Features** | Technical capabilities: leak detection, gas cylinder registration, and real-time tracking. |
+| **Pricing** | Plans (Basic, Standard, Premium) according to operational needs. |
+| **Testimonials** | Opinions from real users to build trust. |
+| **Contact** | Direct channel for inquiries and contact with the team. |
+| **FAQ** | Frequently asked questions about compatibility, IoT connectivity, and alerts. |
+
+---
+
+## 4.2.2. Labeling Systems
+
+Regula’s labeling system prioritizes **simplicity, clarity, and familiarity**, considering users with low levels of digitalization.
+
+### Labeling Principles
+
+* **Use of few words (max. 2–3):**
+  Facilitates quick reading and reduces cognitive load.
+
+* **Natural user language:**
+  Example: *“Cylinder Exit”* instead of *“Inventory Dispatch”*.
+
+* **Terminology consistency:**
+  Consistent use of the term *“cylinder”* throughout the system.
+
+* **Focus on action + object:**
+  Allows users to quickly understand each option.
+
+---
+
+### Main Labels
+
+* Dashboard
+* Alerts
+* Entries
+* Exits
+* Stock
+* Deliveries
+* Sales
+* Debts
+* History
+
+These represent key functions: **inventory, safety, distribution, and operations**.
+
+---
+
+### Secondary Labels
+
+* Register Entry
+* Register Exit
+* View Details
+* Mark as Resolved
+* Assign Delivery
+* Update Status
+* Filter
+* Search
+
+Use of **direct verbs** for intuitive interaction.
+
+---
+
+### States and Alerts
+
+* Normal
+* Alert
+* Leak Detected
+* Pending
+* Resolved
+
+Allow users to quickly identify risks and tasks.
+
+---
+
+### Label Association
+
+* **Entries / Exits → Stock → History**
+  (inventory control)
+
+* **Deliveries → Sales → Debts**
+  (commercial flow)
+
+* **Alerts → Dashboard**
+  (monitoring and decision-making)
+
+---
+
+### Cross-Platform Consistency
+
+* Same labels on web and mobile
+* Immediate recognition
+* Continuity of use
+
+---
+
+### Justification
+
+* Users use simple operational language
+* Low familiarity with complex systems
+* Need for speed in tasks
+
+---
+
+## 4.2.3. SEO Tags and Meta Tags
+
+* **Title:**
+  *Regula – Smart Gas Cylinder Monitoring and Management System*
+
+* **Description:**
+  Optimize the management of gas cylinders with IoT monitoring. Detect gas leaks in real time, control inventory, track deliveries, and improve safety and logistics through a centralized web platform.
+
+* **Keywords:**
+  Gas cylinder monitoring, gas leak detection, LPG management system, IoT gas sensors, gas inventory control, gas distribution tracking, real-time gas alerts, gas logistics platform
+
+---
+
+### Meta Tags
+
+* **Viewport:** width=device-width, initial-scale=1.0
+* **Charset:** UTF-8
+* **Author:** Scripters Team
+* **Robots:** index, follow
+* **Language:** en-US, es-ES
+
+---
+
+## 4.2.4. Searching Systems
+
+### Navigation by Categories
+
+* Navigation bar with access to the main modules:
+  **Dashboard, Inventory, Alerts, Distribution, Reports, and Collections**
+
+* Clear classification between:
+
+    * Safety
+    * Operational control
+    * Logistics
+
+* Separation by roles:
+
+    * Company
+    * Distributor
+    * Supervisor
+
+This facilitates access according to the user type.
+
+---
+
+### Content Search
+
+* **FAQ Section:**
+  Resolves questions about gas monitoring and platform usage.
+
+* **Internal Search Engine:**
+  Allows users to locate cylinder records, deliveries, or alerts.
+
+* **Anchored Navigation:**
+  Quick access within the dashboard to specific modules.
+
+* **Filterable History:**
+  Filters by:
+
+    * Dates
+    * Cylinder status
+    * Incident type
+
+---
+
+## 4.2.5. Navigation Systems
+
+### Main Navigation Bar
+
+* Fixed horizontal (**sticky**) navigation with access to all modules
+* Direct access to the **General Dashboard** with key metrics
+* Highlighted button: **“View Alerts”** as a priority action
+
+---
+
+### Call-to-Action (CTA) Buttons
+
+* **Dashboard:**
+
+    * “View Details”
+    * “Monitor Now”
+
+* **Inventory:**
+
+    * “Register Entry”
+    * “Register Exit”
+
+* **Distribution:**
+
+    * “Track Delivery”
+
+* **Alerts:**
+
+    * “Handle Alert”
+
+* **Forms:**
+
+    * “Save”
+    * “Register”
+
+* **Color usage:**
+
+    * Red → Alerts
+    * Blue → Main actions
+    * Green → Confirmations
+
+---
+
+### Footer Navigation
+
+* Organized links:
+  **Company, Support, Legal, Contact**
+
+* Access to:
+
+    * Technical support
+    * Documentation
+    * Policies
+
+* Corporate information and copyright
+
+---
+
+### Trust Elements
+
+* Security indicators:
+
+    * “Real-time monitoring”
+    * “Automatic alerts active”
+
+* Metrics visualization:
+
+    * Number of detected alerts
+    * Reduction of losses
+    * Operational efficiency
+
+* Verifiable history for auditing
+
+* Transparency in data related to:
+
+    * Inventory
+    * Distribution
+    * Safety
+
 
 
 
