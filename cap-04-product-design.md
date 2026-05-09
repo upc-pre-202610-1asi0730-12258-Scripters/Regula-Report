@@ -847,3 +847,88 @@ These wireframes aim to ensure a clear, fast, and decision-oriented operational 
 ![user-distributor.png](.\assets\images\cap-04\web-application\user-flow-diagrams\distributor\user-flow-distributor.png)
 
 ---
+
+# 4.5. Web Applications Prototyping
+
+The web application prototypes for Regula were designed to validate the interaction flows defined during the UX process and to ensure that both gas companies and distributors can complete operational tasks quickly and intuitively. The prototypes simulate realistic navigation between modules such as inventory control, operational monitoring, alerts, distribution, and reports.
+
+The interaction model follows the Information Architecture previously defined, maintaining consistency in navigation systems, labeling, and user flows. Priority was given to operational efficiency, immediate visibility of critical information, and minimizing the number of actions required to complete repetitive tasks.
+
+The prototypes were developed for both desktop and mobile web browsers in order to validate responsive behavior and interaction continuity across devices. Desktop views prioritize data density and operational monitoring, while mobile views focus on quick actions, alerts, and simplified navigation for field operations.
+
+---
+
+## Main Interaction Decisions
+
+### Navigation Structure
+
+The prototypes use a persistent sidebar navigation on desktop devices and a collapsible hamburger navigation on mobile devices. This decision allows users to access critical modules rapidly without interrupting operational workflows.
+
+Main navigation modules include:
+
+- Dashboard
+- Inventory
+- Distribution
+- Alerts
+- Reports
+- Sales
+- Collections
+
+---
+
+### Interaction Principles
+
+The interaction system was designed around the following principles:
+
+- Immediate access to critical information
+- Minimal clicks for repetitive operational tasks
+- Real-time visual feedback
+- Clear prioritization of alerts and incidents
+- Consistency between desktop and mobile interactions
+
+Operational actions such as registering entries, confirming deliveries, handling alerts, or viewing reports are accessible through highly visible CTA buttons positioned close to the main working area.
+
+---
+
+### Responsive Interaction
+
+The prototypes adapt according to device size while maintaining interaction consistency:
+
+- Desktop prioritizes monitoring dashboards and multi-panel visualization
+- Tablet focuses on operational supervision with simplified layouts
+- Mobile emphasizes quick access to alerts, deliveries, and inventory actions
+
+---
+
+## Desktop Web Prototype
+
+The desktop prototype focuses on operational visibility, real-time monitoring, and management efficiency. The interface allows supervisors and operators to simultaneously monitor inventory, alerts, deliveries, and operational KPIs.
+
+### Desktop Prototype Screenshot
+
+<img src="./assets/images/cap-04/web-application/prototyping/desktop-web/desktop-screenshot.jpeg">
+
+### Desktop Prototype Video
+
+Microsoft Stream Video Link:
+
+[View Prototype Demonstration Video on Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB0gjWb60w1Rogd1knZcZSUATUlfGGySNMOaZpZvcus_qI?e=uOie0V&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+## Mobile Web Prototype
+
+The mobile prototype was designed for distributors, drivers, and operational staff who require quick access during field operations. The mobile experience prioritizes simplified navigation, fast confirmation actions, and operational continuity.
+
+### Mobile Prototype Screenshot
+
+<img src="./assets/images/cap-04/prototyping/mobile/mobile-prototype.png">
+
+---
+
+### Mobile Prototype Video
+
+Microsoft Stream Video Link:
+
+[Insert Microsoft Stream Mobile Prototype Video Link Here]
+
+---
+
