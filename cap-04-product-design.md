@@ -932,3 +932,214 @@ Microsoft Stream Video Link:
 
 ---
 
+# 4.6. Domain-Driven Software Architecture
+
+Regula’s software architecture was designed following Domain-Driven Design principles in order to model the operational complexity of gas distribution, inventory traceability, operational monitoring, and safety management.
+
+The architectural approach is centered around bounded contexts that represent clearly differentiated business capabilities. This separation allows each domain to evolve independently while maintaining consistency through domain events and asynchronous communication patterns.
+
+The design process started with Big Picture EventStorming sessions, followed by Design-Level EventStorming workshops that refined aggregates, commands, events, policies, and domain relationships in greater detail.
+
+The architecture was later represented using the C4 Model to visualize the system from different abstraction levels, including Context, Container, and Component diagrams.
+
+---
+
+## Identified Bounded Contexts
+
+| Previous Name | Refined Bounded Context |
+|---|---|
+| Analítica, Reportes y Toma de Decisiones | Analytics & Decision Support |
+| Gestión Comercial y Financiera del Distribuidor | Commercial & Financial Management |
+| Gestión de Distribución y Logística | Distribution & Logistics |
+| Gestión de Inventario y Movimientos | Inventory & Cylinder Tracking |
+| Gestión de Seguridad y Alertas | Safety & Incident Monitoring |
+
+---
+
+# 4.6.1. Design-Level EventStorming
+
+The Design-Level EventStorming sessions were conducted to refine the domain model identified during the Big Picture EventStorming stage. The objective of these sessions was to achieve a deeper understanding of operational behavior, domain boundaries, aggregate responsibilities, and event-driven interactions.
+
+The workshops focused on identifying operational inconsistencies, refining commands and events, validating business rules, and improving bounded context responsibilities.
+
+The sessions were organized into four iterative phases to progressively refine the domain model.
+
+---
+
+## Phase 1 — Domain Exploration
+
+During this phase, the team reviewed the operational workflows and validated the main business processes related to inventory control, gas monitoring, logistics, commercial operations, and operational analytics.
+
+### Analytics & Decision Support
+
+<img src="./assets/images/cap-04/domain-driven-software-architecture/">
+
+### Commercial & Financial Management
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-01/commercial-financial-management.png">
+
+### Distribution & Logistics
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-01/distribution-logistics.png">
+
+### Inventory & Cylinder Tracking
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-01/inventory-cylinder-tracking.png">
+
+### Safety & Incident Monitoring
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-01/safety-incident-monitoring.png">
+
+---
+
+## Phase 2 — Aggregate and Command Refinement
+
+In this phase, aggregates, commands, and transactional boundaries were refined in order to improve consistency and responsibility separation between domains.
+
+### Analytics & Decision Support
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-02/analytics-decision-support.png">
+
+### Commercial & Financial Management
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-02/commercial-financial-management.png">
+
+### Distribution & Logistics
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-02/distribution-logistics.png">
+
+### Inventory & Cylinder Tracking
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-02/inventory-cylinder-tracking.png">
+
+### Safety & Incident Monitoring
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-02/safety-incident-monitoring.png">
+
+---
+
+## Phase 3 — Policies and Event Relationships
+
+The team analyzed how domain events trigger business reactions across bounded contexts, identifying policies, orchestration rules, and asynchronous communication patterns.
+
+### Analytics & Decision Support
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-03/analytics-decision-support.png">
+
+### Commercial & Financial Management
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-03/commercial-financial-management.png">
+
+### Distribution & Logistics
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-03/distribution-logistics.png">
+
+### Inventory & Cylinder Tracking
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-03/inventory-cylinder-tracking.png">
+
+### Safety & Incident Monitoring
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-03/safety-incident-monitoring.png">
+
+---
+
+## Phase 4 — Final Domain Validation
+
+The final phase focused on validating consistency, removing ambiguities, refining event naming, and confirming bounded context interactions.
+
+### Analytics & Decision Support
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-04/analytics-decision-support.png">
+
+### Commercial & Financial Management
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-04/commercial-financial-management.png">
+
+### Distribution & Logistics
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-04/distribution-logistics.png">
+
+### Inventory & Cylinder Tracking
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-04/inventory-cylinder-tracking.png">
+
+### Safety & Incident Monitoring
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-04/safety-incident-monitoring.png">
+
+---
+
+# 4.6.2. Software Architecture Context Diagram
+
+The Software Architecture Context Diagram represents Regula as a centralized platform interacting with external users and supporting systems. The objective of this diagram is to visualize the boundaries of the solution and identify the main actors and integrations involved in the operational ecosystem.
+
+The context diagram includes gas companies, distributors, supervisors, IoT devices, notification services, and external mapping services used for operational tracking.
+
+### Context Diagram
+
+<img src="./assets/images/cap-04/software-architecture/context-diagram/context-diagram.png">
+
+---
+
+# 4.6.3. Software Architecture Container Diagrams
+
+The Container Diagram presents the high-level structure of Regula and how responsibilities are distributed across the system. The architecture follows a modular and scalable approach aligned with Domain-Driven Design principles.
+
+The solution is composed of web applications, backend services, IoT communication services, databases, and external integrations. Communication between containers combines synchronous REST APIs and asynchronous event-driven mechanisms.
+
+The architecture was designed to support operational scalability, real-time monitoring, and high traceability requirements.
+
+### Container Diagram
+
+<img src="./assets/images/cap-04/software-architecture/container-diagrams/container-diagram.png">
+
+---
+
+# 4.6.4. Software Architecture Components Diagrams
+
+The Component Diagrams provide a more detailed representation of the internal structure of each bounded context. These diagrams identify the main application components, domain services, repositories, APIs, and infrastructure responsibilities.
+
+Each bounded context was modeled independently in order to preserve separation of concerns and maintain clear domain ownership.
+
+---
+
+## Analytics & Decision Support
+
+This bounded context centralizes operational analytics, reporting, trend analysis, KPI evaluation, and decision-support capabilities.
+
+<img src="./assets/images/cap-04/software-architecture/components/analytics-decision-support-components.png">
+
+---
+
+## Commercial & Financial Management
+
+This bounded context manages distributor sales, debt tracking, collections, and financial operations associated with commercial workflows.
+
+<img src="./assets/images/cap-04/software-architecture/components/commercial-financial-management-components.png">
+
+---
+
+## Distribution & Logistics
+
+This bounded context coordinates delivery operations, route tracking, logistics supervision, and real-time distribution monitoring.
+
+<img src="./assets/images/cap-04/software-architecture/components/distribution-logistics-components.png">
+
+---
+
+## Inventory & Cylinder Tracking
+
+This bounded context is responsible for inventory control, cylinder movement traceability, warehouse operations, and stock monitoring.
+
+<img src="./assets/images/cap-04/software-architecture/components/inventory-cylinder-tracking-components.png">
+
+---
+
+## Safety & Incident Monitoring
+
+This bounded context manages IoT sensor monitoring, leak detection, operational alerts, incident handling, and safety supervision.
+
+<img src="./assets/images/cap-04/software-architecture/components/safety-incident-monitoring-components.png">
+
+---
