@@ -1249,3 +1249,232 @@ This bounded context manages IoT sensor monitoring, leak detection, operational 
 <img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-SeguridadOperacionalComponent.png">
 
 ---
+
+
+# 4.7. Software Object-Oriented Design
+
+The object-oriented design of Regula was developed to provide a modular, maintainable, and scalable software structure aligned with Domain-Driven Design (DDD) principles and the bounded contexts identified during the EventStorming sessions.
+
+The class diagrams presented in this section describe the internal structure of the system by modeling entities, aggregates, services, repositories, interfaces, enumerations, and their relationships. Each bounded context was designed independently to preserve clear domain responsibilities and reduce coupling between modules.
+
+The diagrams include:
+
+* Classes and interfaces
+* Attributes and methods
+* Access modifiers (`public`, `private`, `protected`)
+* Relationships and associations
+* Multiplicity and navigability
+* Aggregate boundaries and domain responsibilities
+
+The objective of these diagrams is to represent the internal behavior of the platform and provide a solid foundation for implementation and architectural consistency.
+
+---
+
+# 4.7.1. Class Diagrams
+
+## Analytics & Decision Support
+
+This bounded context manages operational analytics, KPI generation, trend analysis, and decision-support processes based on inventory, alerts, and logistics information collected from other domains.
+
+The class diagram includes:
+
+* Operational analytics entities
+* KPI calculation services
+* Historical analysis models
+* Trend evaluation components
+* Reporting services
+* Repository abstractions
+
+The design prioritizes data aggregation, analytical consistency, and reporting scalability.
+
+<img src=".\assets\images\cap-04\object-oriented-diagrams\Analítica%20y%20Toma%20de%20Decisiones%20BC%20SVG.svg">
+
+---
+
+## Commercial & Financial Management
+
+This bounded context handles commercial transactions, customer balances, operational payments, debt tracking, and financial reporting processes.
+
+The class diagram includes:
+
+* Sales entities
+* Payment and debt management
+* Financial transaction services
+* Customer account management
+* Commercial repositories
+* Validation services
+
+The design focuses on transactional integrity, financial traceability, and operational consistency.
+
+<img src=".\assets\images\cap-04\object-oriented-diagrams\Gestión%20Comercial%20y%20Financiera%20del%20Distribuidor%20BC%20SVG.svg">
+
+---
+
+## Distribution & Logistics
+
+This bounded context is responsible for delivery management, route tracking, distribution monitoring, and operational logistics coordination.
+
+The class diagram includes:
+
+* Delivery management entities
+* Route tracking models
+* Distribution services
+* Driver and vehicle coordination
+* Logistics repositories
+* Delivery status management
+
+The design emphasizes operational continuity, real-time tracking, and logistics optimization.
+
+<img src="./assets/images/cap-04/object-oriented-diagrams/Gestión%20de%20Distribución%20y%20Logística%20BS%20CVG.svg">
+
+---
+
+## Inventory & Cylinder Tracking
+
+This bounded context manages the operational lifecycle of gas cylinders, including inventory registration, stock movement, cylinder status monitoring, and traceability processes.
+
+The class diagram includes:
+
+* Cylinder entities
+* Inventory management services
+* Entry and exit operations
+* Stock monitoring models
+* Repository interfaces
+* Validation and tracking components
+
+The design prioritizes inventory accuracy, traceability, and operational efficiency.
+
+<img src="./assets/images/cap-04/object-oriented-diagrams/Gestión%20de%20Inventario%20y%20Movimientos%20BC%20SVG.svg">
+
+---
+
+## Safety & Incident Monitoring
+
+This bounded context handles operational safety processes, gas leak monitoring, sensor management, and incident response coordination.
+
+The class diagram includes:
+
+* Incident monitoring entities
+* Sensor management models
+* Alert generation services
+* Notification handling
+* Safety repositories
+* Monitoring policies
+
+The design focuses on rapid incident detection, operational safety, and real-time monitoring reliability.
+
+<img src="./assets/images/cap-04/object-oriented-diagrams/Gestión%20de%20Seguridad%20y%20Alertas%20BC%20SVG.svg">
+
+---
+
+# 4.8. Database Design
+
+The database design of Regula was structured according to the bounded contexts identified during the domain analysis process. Each bounded context maintains its own persistence model to preserve autonomy, reduce coupling, and improve scalability and maintainability.
+
+The database diagrams presented in this section describe the persistence structure of the platform, including entities, tables, relationships, foreign keys, and integrity constraints required to support operational processes.
+
+The design follows relational modeling principles and considers:
+
+* Domain separation by bounded context
+* Referential integrity
+* Data consistency
+* Transactional reliability
+* Scalability for operational growth
+* Historical traceability
+* Efficient querying for dashboards and analytics
+
+Each database diagram reflects the persistence requirements of its corresponding business domain.
+
+---
+
+# 4.8.1. Database Diagrams
+
+## Analytics & Decision Support
+
+The database design for this bounded context stores operational metrics, analytical reports, KPI history, trend evaluations, and generated insights used for decision-making processes.
+
+The database diagram includes:
+
+* KPI tables
+* Operational analytics records
+* Historical analysis storage
+* Reporting structures
+* Analytical aggregation relationships
+
+The design supports efficient reporting and long-term operational analysis.
+
+<img src="./assets/images/cap-04/database-diagrams/analytics-decision-support-database-diagram.png">
+
+---
+
+## Commercial & Financial Management
+
+This database diagram models the persistence structure for commercial operations, customer payments, debt tracking, billing processes, and financial records.
+
+The database includes:
+
+* Sales tables
+* Payment records
+* Debt management structures
+* Customer financial accounts
+* Transaction history relationships
+
+The design prioritizes financial consistency and auditability.
+
+<img src="./assets/images/cap-04/database-diagrams/commercial-financial-management-database-diagram.png">
+
+---
+
+## Distribution & Logistics
+
+This bounded context database stores delivery information, operational routes, shipment tracking data, and logistics coordination records.
+
+The database diagram includes:
+
+* Delivery tables
+* Route management records
+* Distribution tracking entities
+* Vehicle and driver associations
+* Delivery status history
+
+The design focuses on operational traceability and logistics monitoring.
+
+<img src="./assets/images/cap-04/database-diagrams/distribution-logistics-database-diagram.png">
+
+---
+
+## Inventory & Cylinder Tracking
+
+The database design for this bounded context manages the lifecycle and operational movement of gas cylinders across warehouses and distribution processes.
+
+The database diagram includes:
+
+* Cylinder inventory tables
+* Entry and exit records
+* Stock movement history
+* Warehouse relationships
+* Cylinder status tracking structures
+
+The design guarantees inventory consistency and traceability.
+
+<img src="./assets/images/cap-04/database-diagrams/inventory-cylinder-tracking-database-diagram.png">
+
+---
+
+## Safety & Incident Monitoring
+
+This bounded context database stores operational alerts, sensor readings, incident history, monitoring events, and safety notifications.
+
+The database diagram includes:
+
+* Sensor management tables
+* Alert records
+* Incident history
+* Monitoring event storage
+* Notification tracking relationships
+
+The design prioritizes real-time operational monitoring and historical incident analysis.
+
+<img src="./assets/images/cap-04/database-diagrams/safety-incident-monitoring-database-diagram.png">
+
+---
