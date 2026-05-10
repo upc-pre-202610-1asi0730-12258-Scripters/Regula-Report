@@ -958,113 +958,219 @@ The architecture was later represented using the C4 Model to visualize the syste
 
 # 4.6.1. Design-Level EventStorming
 
-The Design-Level EventStorming sessions were conducted to refine the domain model identified during the Big Picture EventStorming stage. The objective of these sessions was to achieve a deeper understanding of operational behavior, domain boundaries, aggregate responsibilities, and event-driven interactions.
+The Design-Level EventStorming sessions were conducted to progressively refine the domain model identified during the Big Picture EventStorming stage. The objective of these sessions was to achieve a deeper understanding of operational behavior, process continuity, business rules, automation flows, aggregate responsibilities, and bounded context interactions.
 
-The workshops focused on identifying operational inconsistencies, refining commands and events, validating business rules, and improving bounded context responsibilities.
+The workshops focused on refining domain events, organizing operational workflows, validating commands and policies, identifying system reactions, consolidating interactions between processes, and defining strategic architectural boundaries.
 
-The sessions were organized into four iterative phases to progressively refine the domain model.
+The sessions were organized into four iterative phases to progressively evolve the domain model from operational exploration to strategic architecture definition.
 
 ---
 
-## Phase 1 — Domain Exploration
+# Phase 1 — Domain Event Refinement
 
-During this phase, the team reviewed the operational workflows and validated the main business processes related to inventory control, gas monitoring, logistics, commercial operations, and operational analytics.
+During this phase, the team refined the domain events identified during the Big Picture EventStorming sessions. The objective was to better understand operational timelines, identify business inconsistencies, detect pain points, and organize the main operational scenarios of the platform.
 
-### Analytics & Decision Support
+This phase focused primarily on event discovery and process clarification before introducing commands, policies, or architectural structures.
 
-<img src="./assets/images/cap-04/domain-driven-software-architecture/">
+### Activities performed
 
-### Commercial & Financial Management
+* Unstructured operational exploration
+* Timeline organization of business processes
+* Identification of operational pain points
+* Detection of pivotal business situations
+* Refinement and validation of domain events
+
+### Visual Modeling Elements
+
+* 🟠 Domain Events
+
+### Objectives of the Phase
+
+* Refine events discovered during the Big Picture stage
+* Organize operational processes
+* Detect problematic scenarios
+* Understand business continuity between events
+* Identify operational bottlenecks and risks
+
+---
+
+## Analytics & Decision Support
+
+<img src="./assets/images/cap-04/design-level-eventstorming/phase-01/analytics-decision-support.png">
+
+## Commercial & Financial Management
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-01/commercial-financial-management.png">
 
-### Distribution & Logistics
+## Distribution & Logistics
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-01/distribution-logistics.png">
 
-### Inventory & Cylinder Tracking
+## Inventory & Cylinder Tracking
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-01/inventory-cylinder-tracking.png">
 
-### Safety & Incident Monitoring
+## Safety & Incident Monitoring
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-01/safety-incident-monitoring.png">
 
 ---
 
-## Phase 2 — Aggregate and Command Refinement
+# Phase 2 — Process and Behavior Modelling
 
-In this phase, aggregates, commands, and transactional boundaries were refined in order to improve consistency and responsibility separation between domains.
+In this phase, the team modeled operational behavior and system interactions by introducing commands, policies, actors, and read models. The goal was to define how users interact with the system and how the platform reacts to operational events.
 
-### Analytics & Decision Support
+This phase emphasized automation rules, business policies, and transactional behavior across operational workflows.
+
+### Activities performed
+
+* Definition of user commands
+* Identification of actors and responsibilities
+* Modeling of policies and automated reactions
+* Creation of read models for operational visibility
+* Validation of business rules and process behavior
+
+### Visual Modeling Elements
+
+* 🟢 Actors
+* 🔵 Commands
+* 🟠 Domain Events
+* 🟣 Policies
+* 🟩 Read Models
+
+### Objectives of the Phase
+
+* Model operational behavior
+* Define business automation rules
+* Refine interactions between users and the system
+* Validate business policies and reactions
+* Improve process consistency
+
+---
+
+## Analytics & Decision Support
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-02/analytics-decision-support.png">
 
-### Commercial & Financial Management
+## Commercial & Financial Management
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-02/commercial-financial-management.png">
 
-### Distribution & Logistics
+## Distribution & Logistics
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-02/distribution-logistics.png">
 
-### Inventory & Cylinder Tracking
+## Inventory & Cylinder Tracking
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-02/inventory-cylinder-tracking.png">
 
-### Safety & Incident Monitoring
+## Safety & Incident Monitoring
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-02/safety-incident-monitoring.png">
 
 ---
 
-## Phase 3 — Policies and Event Relationships
+# Phase 3 — Workflow and Interaction Consolidation
 
-The team analyzed how domain events trigger business reactions across bounded contexts, identifying policies, orchestration rules, and asynchronous communication patterns.
+During this phase, the team consolidated the complete operational workflows by connecting business processes, validating dependencies, and analyzing continuity between operational scenarios.
 
-### Analytics & Decision Support
+The objective was to verify that commands, events, policies, and read models interacted consistently across the platform without operational conflicts or disconnected flows.
+
+### Activities performed
+
+* Validation of complete workflows
+* Connection of operational processes
+* Verification of dependencies between domains
+* Analysis of process continuity
+* Consolidation of event-driven interactions
+
+### Visual Modeling Elements
+
+* 🟢 Actors
+* 🔵 Commands
+* 🟠 Domain Events
+* 🟣 Policies
+* 🟩 Read Models
+
+### Objectives of the Phase
+
+* Validate operational continuity
+* Refine interactions between processes
+* Detect inconsistencies between workflows
+* Consolidate operational behavior
+* Prepare the model for strategic architectural refinement
+
+---
+
+## Analytics & Decision Support
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-03/analytics-decision-support.png">
 
-### Commercial & Financial Management
+## Commercial & Financial Management
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-03/commercial-financial-management.png">
 
-### Distribution & Logistics
+## Distribution & Logistics
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-03/distribution-logistics.png">
 
-### Inventory & Cylinder Tracking
+## Inventory & Cylinder Tracking
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-03/inventory-cylinder-tracking.png">
 
-### Safety & Incident Monitoring
+## Safety & Incident Monitoring
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-03/safety-incident-monitoring.png">
 
 ---
 
-## Phase 4 — Final Domain Validation
+# Phase 4 — Strategic Domain and Architecture Design
 
-The final phase focused on validating consistency, removing ambiguities, refining event naming, and confirming bounded context interactions.
+The final phase focused on defining the strategic structure of the platform by identifying bounded contexts, aggregates, and external system integrations.
 
-### Analytics & Decision Support
+This phase prepared the transition from operational domain modeling to software architecture design, ensuring clear domain boundaries and modular responsibilities.
+
+### Activities performed
+
+* Identification of bounded contexts
+* Definition of aggregates and transactional consistency boundaries
+* Analysis of external systems and integrations
+* Validation of domain ownership and responsibilities
+* Refinement of strategic architectural relationships
+
+### Visual Modeling Elements
+
+* 🟦 External Systems
+* 🟨 Aggregates
+* 📦 Bounded Contexts
+
+### Objectives of the Phase
+
+* Define system boundaries
+* Group business logic into strategic modules
+* Identify architectural domains
+* Define integration points
+* Prepare the architecture for implementation
+
+---
+
+## Analytics & Decision Support
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-04/analytics-decision-support.png">
 
-### Commercial & Financial Management
+## Commercial & Financial Management
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-04/commercial-financial-management.png">
 
-### Distribution & Logistics
+## Distribution & Logistics
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-04/distribution-logistics.png">
 
-### Inventory & Cylinder Tracking
+## Inventory & Cylinder Tracking
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-04/inventory-cylinder-tracking.png">
 
-### Safety & Incident Monitoring
+## Safety & Incident Monitoring
 
 <img src="./assets/images/cap-04/design-level-eventstorming/phase-04/safety-incident-monitoring.png">
 
@@ -1078,7 +1184,7 @@ The context diagram includes gas companies, distributors, supervisors, IoT devic
 
 ### Context Diagram
 
-<img src="./assets/images/cap-04/software-architecture/context-diagram/context-diagram.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/context/structurizr-109729-SistemaGasContext.png">
 
 ---
 
@@ -1092,7 +1198,7 @@ The architecture was designed to support operational scalability, real-time moni
 
 ### Container Diagram
 
-<img src="./assets/images/cap-04/software-architecture/container-diagrams/container-diagram.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/container/structurizr-109729-SistemaGasContainer.png">
 
 ---
 
@@ -1108,7 +1214,7 @@ Each bounded context was modeled independently in order to preserve separation o
 
 This bounded context centralizes operational analytics, reporting, trend analysis, KPI evaluation, and decision-support capabilities.
 
-<img src="./assets/images/cap-04/software-architecture/components/analytics-decision-support-components.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-AnaliticaYGestionOperativaComponent.png">
 
 ---
 
@@ -1116,7 +1222,7 @@ This bounded context centralizes operational analytics, reporting, trend analysi
 
 This bounded context manages distributor sales, debt tracking, collections, and financial operations associated with commercial workflows.
 
-<img src="./assets/images/cap-04/software-architecture/components/commercial-financial-management-components.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-GestionComercialDistribuidorComponent.png">
 
 ---
 
@@ -1124,7 +1230,7 @@ This bounded context manages distributor sales, debt tracking, collections, and 
 
 This bounded context coordinates delivery operations, route tracking, logistics supervision, and real-time distribution monitoring.
 
-<img src="./assets/images/cap-04/software-architecture/components/distribution-logistics-components.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-DistribucionYLogisticaComponent.png">
 
 ---
 
@@ -1132,7 +1238,7 @@ This bounded context coordinates delivery operations, route tracking, logistics 
 
 This bounded context is responsible for inventory control, cylinder movement traceability, warehouse operations, and stock monitoring.
 
-<img src="./assets/images/cap-04/software-architecture/components/inventory-cylinder-tracking-components.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-InventarioYMovimientosComponent.png">
 
 ---
 
@@ -1140,6 +1246,6 @@ This bounded context is responsible for inventory control, cylinder movement tra
 
 This bounded context manages IoT sensor monitoring, leak detection, operational alerts, incident handling, and safety supervision.
 
-<img src="./assets/images/cap-04/software-architecture/components/safety-incident-monitoring-components.png">
+<img src="./assets/images/cap-04/domain-driven-software-architecture/c4-model/component/structurizr-109729-SeguridadOperacionalComponent.png">
 
 ---
