@@ -1,3 +1,498 @@
+<div align="center">
+
+<img src="../../report/assets/images/UPC_logo_transparente.png" alt="UPC_logo" width="150"></img>
+
+# Universidad Peruana de Ciencias Aplicadas
+
+**Facultad:** Ingeniería
+
+**Ingeniería de Software**
+
+**Ciclo:** 2026-1
+
+1ASI0730 - Aplicaciones Web
+
+**NRC:** 12258
+
+**Profesor:** Velasquez Nuñez, Angel Augusto
+
+### Informe de trabajo Parcial
+
+**Nombre del Startup:** Scripters
+
+**Nombre del producto:** Regula
+
+</div>            
+
+## Capítulo I: Introducción
+
+- [1.1. Startup Profile](#11-startup-profile).
+    - [1.1.1. Descripción de la Startup](#12-startup-description).
+    - [1.1.2. Perfiles de integrantes del equipo](#12-startup-description).
+- [1.2. Solution Profile](#11-startup-profile).
+    - [1.2.1. Antecedentes y problemática](#12-startup-description).
+    - [1.2.2. Lean UX process](#12-startup-description).
+        - [1.2.2.1 Lean UX Problem Statements](#12-startup-description).
+        - [1.2.2.2 Lean UX Assumptions](#tabla-de-contenidos).
+        - [1.2.2.3 Lean UX Hypotheses Statements](#tabla-de-contenidos).
+        - [1.2.2.4 Lean UX Canvas](#proyect-report-collaborations-insights).
+- [1.3. Segmentos Objetivo](#11-startup-profile).
+---
+## Capítulo II: Requirements Elicitation and Analysis
+
+- [2.1. Competidores](#21-competidores).
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo).
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-análisis-foda).
+- [2.2 Entrevistas](#21-entrevistas).
+    - [2.2.1. Diseño de entrevistas](#221-análisis-de-entrevistas).
+    - [2.2.2. Registro de entrevistas](#221-análisis-de-entrevistas).
+    - [2.2.3. Análisis de entrevistas](#221-análisis-de-entrevistas).
+- [2.3. Needfinding]().
+    - [2.3.1. User Personas]().
+    - [2.3.2. User Task Matrix]().
+    - [2.3.3. User Journey Map]().
+    - [2.3.4. User Journey Mapping]().
+- [2.4. Big Picture EventStorming]().
+- [2.5. Ubiquitous Language]().
+---
+
+## Capítulo III: Requirements Specification
+
+- [3.1. User Stories]().
+- [3.2. Impact Mapping]().
+- [3.3. Product Backlog]().
+---
+## Capítulo IV: Product Design
+
+- [4.1. Style Guidelines]().
+    - [4.1.1. General Style Guidelines]().
+    - [4.1.2. Web Style Guidelines]().
+- [4.2. Information Architecture]().
+    - [4.2.1. Organization Systems]().
+    - [4.2.2. Labeling Systems]().
+    - [4.2.3. SEO Tags and Meta Tags]().
+    - [4.2.4. Searching Systems]().
+    - [4.2.5. Navigation Systems]().
+- [4.3. Landing Page UI Design]().
+    - [4.3.1. Landing Page Wireframe]().
+    - [4.3.2. Landing Page Mock-up]().
+- [4.4. Web Applications UX/UI Design]().
+    - [4.4.1. Web Applications Wireframes]().
+    - [4.4.2. Web Applications Wireflows Diagrams]().
+    - [4.4.3. Web Applications Mock-ups]().
+    - [4.4.4. Web Applications User Flow Diagrams]().
+- [4.5. Web Applications Prototyping]().
+- [4.6. Domain-Driven Software Architecture]().
+    - [4.6.1. Design-Level EventStorming]().
+    - [4.6.2. Software Architecture Context Diagram]().
+    - [4.6.3. Software Architecture Container Diagrams]().
+    - [4.6.4. Software Architecture Component Diagrams]().
+- [4.7. Software Object-Oriented Design]().
+    - [4.7.1. Class Diagrams]().
+- [4.8. DataBase Design]().
+    - [4.8.1. Database Diagrams]().
+---
+## Capítulo V: Product Implementation, Validation & Deployment
+
+- [5.1. Software Configuration Management]().
+    - [5.1.1. Software Development Environment Configuration]().
+    - [5.1.2. Source Code Management]().
+    - [5.1.3. Source Code Style Guide & Conventions]().
+    - [5.1.4. Software Deployment Configuration]().
+- [5.2. Landing Page, Services & Applications Implementation]().
+    - [5.2.1 Sprint 1]()
+        - [5.2.1.1. Sprint Planning 1]().
+        - [5.2.1.2. Aspect Leaders and Collaborators]().
+        - [5.2.1.3. Sprint Backlog 1]().
+        - [5.2.1.4. Development Evidence for Sprint Review]().
+        - [5.2.1.5. Execution Evidence for Sprint Review]().
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review]().
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review]().
+        - [5.2.1.8. Team Collaboration Insights during Sprint]().
+
+    - [5.2.2 Sprint 2]()
+        - [5.2.2.1. Sprint Planning 2]().
+        - [5.2.2.2. Aspect Leaders and Collaborators]().
+        - [5.2.2.3. Sprint Backlog 2]().
+        - [5.2.2.4. Development Evidence for Sprint Review]().
+        - [5.2.2.5. Execution Evidence for Sprint Review]().
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review]().
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review]().
+        - [5.2.2.8. Team Collaboration Insights during Sprint]().
+
+    - [5.2.1 Sprint 3]()
+        - [5.2.3.1. Sprint Planning 3]().
+        - [5.2.3.2. Aspect Leaders and Collaborators]().
+        - [5.2.3.3. Sprint Backlog 3]().
+        - [5.2.3.4. Development Evidence for Sprint Review]().
+        - [5.2.3.5. Execution Evidence for Sprint Review]().
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review]().
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review]().
+        - [5.2.3.8. Team Collaboration Insights during Sprint]().
+
+    - [5.2.4 Sprint 4]()
+        - [5.2.4.1. Sprint Planning 4]().
+        - [5.2.4.2. Aspect Leaders and Collaborators]().
+        - [5.2.4.3. Sprint Backlog 4]().
+        - [5.2.4.4. Development Evidence for Sprint Review]().
+        - [5.2.4.5. Execution Evidence for Sprint Review]().
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review]().
+        - [5.2.4.7. Software Deployment Evidence for Sprint Review]().
+        - [5.2.4.8. Team Collaboration Insights during Sprint]().
+
+- [5.3. Validation Interviews]().
+    - [5.3.1. Diseño de Entrevistas]().
+    - [5.3.2. Registro de Entrevistas]().
+    - [5.3.3. Evaluaciones según heurísticas]().
+
+- [5.4. Video About the Product]().
+- 
+#### Relación de integrantes
+# **Student Outcome**
+
+El curso contribuye al cumplimiento del Student Outcome **ABET: ABET – EAC - Student Outcome 5**
+
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+
+# **Tabla de contenidos**
+
+| **Criterio Específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------------|------------------|
+| **5.c1. Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br>Organizó al equipo para el avance de cada parte del informe, y mantuvo al equipo al tanto de todo cambio y nuevas ideas. | Promover la unión del equipo para organizar y ejecutar las primeras actividades del proyecto y lograr avances satisfactorios para este entregable. |
+| **5.c2. Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br> Promovió reuniones grupales para el planeamiento de los avances de cada integrante en el informe y desarrollo de la landing page. |  El equipo logró establecer un entorno de trabajo colaborativo donde cada integrante aportó de acuerdo a sus habilidades. La claridad en los objetivos permitió alcanzar de manera efectiva los resultados planteados para el primer entregable, demostrando una adecuada organización y coordinación entre todos los miembros del grupo. | 
+
+| Integrante                           | Código     |
+|--------------------------------------|------------|
+| Tello Palacios, Fabrizio Rafael      | U202113310 |
+| Ramos Cerdan, Elias Daniel           | U20201A277 |
+| Espinoza Lopez, Paul Alexandro Angel | U20241E321 |
+| Lopez Torres, Leonardo Gabriel       | U20241A649 |
+| Lopez Montalvo, Kevin Edu            | U20241D958 |
+
+
+
+
+**Mes y año:** Abril 2026
+
+
+
+# **Registro de Versiones del Informe**
+
+| **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
+| ----------- | --------- |----------- |--------------------|
+| AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br><br> Espinoza Lopez, Paul Alexandro Angel <br><br>  Ramos Cerdan, Elias Daniel <br><br> Lopez Torres, Leonardo Gabriel <br><br> Lopez Montalvo, Kevin Edu |  Creacion de estructura de informe en github y redacción de los 5 capítulos. Hicimos el despliegue de la primera versión de la Landing Page |
+
+<hr>
+
+# **Project Report Collaborations Insights**
+
+Nuestro proyecto fue hecho en el repositorio "upc-pre-202610-1asi0730-12258-Scripters-upc-pre-202610-1asi0730-12258-Scripters-Regula-report" dentro de la organización "upc-pre-202610-1asi0730-12258-Scripters".
+
+**Enlaze de la organización en GitHub:** https://github.com/upc-pre-202610-1asi0730-12258-Scripters
+
+**Enlaze del repositorio:** https://github.com/upc-pre-202610-1asi0730-12258-Scripters/upc-pre-202610-1asi0730-12258-Scripters-upc-pre-202610-1asi0730-12258-Scripters-Regula-report
+
+<hr>
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la StartUp
+
+Somos **Scripters**, un grupo de estudiantes de la carrera de Ingeniería de Software de la UPC, desarrolladores de Regula, una aplicación web diseñada para optimizar la gestión operativa en empresas envasadoras de balones de gas. Regula busca mejorar procesos clave como la distribución, el registro de entradas y salidas, y reforzar la seguridad en almacenes tanto de las empresas como de sus distribuidores, integrando tecnologías modernas como IoT y monitoreo en tiempo real en entornos abiertos.
+
+Actualmente, estas empresas enfrentan problemas como la falta de control preciso en el registro de balones, pérdidas económicas por fugas o mala gestión, baja visibilidad del estado de los almacenes, procesos manuales ineficientes y riesgos de seguridad por ausencia de monitoreo constante. Frente a ello, Regula propone una solución digital que integra sensores IoT en zonas de almacenamiento de balones para detectar fugas de gas en el área, junto con una plataforma web que permite registrar operaciones, monitorear condiciones en tiempo real, gestionar la distribución de balones y generar alertas ante posibles riesgos por fugas de gas. Esto facilita la centralización de la información, mejora la toma de decisiones y reduce la dependencia de procesos manuales para tener información precisa.
+
+La propuesta de valor de Regula se basa en optimizar los procesos logísticos, mejorar la seguridad operativa, reducir pérdidas económicas y digitalizar el control de inventario y datos de distribución en un solo sistema accesible y escalable. Está dirigida principalmente a empresas envasadoras de balones de gas, distribuidores y/o centros de almacenamiento. El producto se compone de una aplicación web con dashboard y reportes y un sistema IoT con sensores ambientales programados para detectar fugas de gas (GLP) en el área.
+
+El modelo de negocio se basa en un esquema de suscripción mensual (SaaS), con un Plan Básico que incluye registro de operaciones, registro de local (empresa/distribuidor) y monitoreo limitado, un Plan Estándar que incorpora alertas (sensores ambientales), mayor capacidad de almacenamiento de datos y control, y un Plan Premium que ofrece todo lo anterior, analítica avanzada y gestión integral de la distribución, además que permite regitrar más de un local por usuario. Entre sus principales ventajas competitivas destacan su adaptación a entornos abiertos, el no depender de sensores para cada balón sino un sensor ambiental que recopila información en toda una área, la integración de múltiples procesos en una sola plataforma y su capacidad de escalar según las necesidades de cada empresa.
+
+
+| Misión | Visión | Valores |
+|---|---|---|
+| Desarrollar soluciones tecnológicas innovadoras que permitan a las empresas envasadoras y distribuidoras de balones de gas optimizar sus procesos operativos, mejorar la seguridad en sus almacenes y tomar decisiones basadas en datos en tiempo real mediante el uso de aplicaciones web, móviles y tecnología IoT. | Convertirnos en una startup líder en Latinoamérica en la digitalización y control inteligente de procesos logísticos y de seguridad, expandiendo nuestras soluciones a diferentes industrias que requieran monitoreo, trazabilidad y gestión eficiente de recursos físicos. | **Innovación:** Buscamos constantemente nuevas formas de aplicar tecnología para resolver problemas reales.<br><br>**Seguridad:** Priorizamos la protección de las personas, los activos y el entorno en cada solución que desarrollamos.<br><br>**Eficiencia:** Diseñamos herramientas que optimizan procesos y reducen pérdidas operativas.<br><br>**Compromiso:** Trabajamos con responsabilidad y dedicación para ofrecer soluciones de calidad.<br><br>**Adaptabilidad:** Nos ajustamos a las necesidades reales del mercado y de nuestros clientes. |
+
+### 1.1.2. Perfiles de integrantes del grupo
+
+
+| Foto | Apellido y Nombre | Descripción|
+|------|---------------------------------|------|
+![Fabrizio](../../report/assets/images/Fabrizio.png)| *Tello Palacios, Fabrizio Rafael  u202113310*|Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
+![Kevin](../../report/assets/images/Kevin.jpeg) | *Lopez Montalvo, Kevin Edu u20241D958* | Soy estudiante de Ingeniería de Software y actualmente curso el quinto ciclo. Me considero una persona responsable, proactiva y con gran motivación por aprender. En el curso de Aplicaciones Web, veo este proyecto como una oportunidad para desarrollar una solución orientada a la seguridad y gestión de balones de gas, aplicando tecnologías web, trabajo en equipo y buenas prácticas de desarrollo. Me interesa especialmente cómo el software puede aportar a la seguridad y eficiencia en procesos reales, por lo que busco fortalecer mis habilidades técnicas y colaborar activamente con mis compañeros para lograr un resultado sólido.
+![Paul](../../report/assets/images/Paul.jpeg) | *Espinoza Lopez, Paul Alexandro Angel u20241E321* | Soy un estudiante de Ingeniería de Software del quinto ciclo.Me considero una persona que le gusta escuchar a los demás pues no descarto ningún comentario, comprometida, autoconsciente, frívola en el aspecto de toma de decisiones al igual que directo en el mismo aspecto, solidaria y no tan paciente. A veces soy un poco olvidadizo con respecto a temas doméstico pero en cuanto a los laborales o de estudio no los dejó atrás, me gusta aprender cosas nuevas ya sean de mi carrera o no, pues estas me ayuda a formarme con mayores conocimientos a ser alguien con quien puedas contar en otros ámbitos, de esta forma también en participar en nuevos retos para así poder emplear los conocimientos de antemano tengo ,no busco mostrar que soy el mejor ni mucho menos ganarme la admiración de los demás me interesa más que sepan de mi y mis logros por otros en vez de estar contandolos yo mismo. Mi objetivo en este grupo es poder realizar un trabajo con el cual muy aparte de aprobar y cumplir con las exigencias del profesor es colaborar con todo mi grupo y estar al tanto de sus opiniones o puntos de vista porque siento que al tener claro bien estos podemos hacer un trabajo del cual todos contribuimos desde su inicio hasta su final, sobre todo con respecto a colaborar con ellos para así el promedio final de uno no sea perjudicado. Cuento con conocimientos en lenguaje C++, también conocimientos básicos de Java, HTML, CSS y Phyton.
+![Elias](../../report/assets/images/Elias.jpeg) | *Ramos Cerdan, Elias Daniel u20201A277* | Mi nombre es Elias Daniel Ramos Cerdan y estoy en el quinto ciclo de la carrera de Ingeniería de Software. Me adapto con facilidad a entornos nuevos y siempre busco maneras de mejorar mi ejecución de cada avance en los trabajos. El desarrollo de software es un área de gran interés para mí, tengo conocimientos en C++ y disfruto abordando problemas que exigen tanto razonamiento lógico como creatividad. Dentro del grupo mi objetivo es brindar soluciones que favorezcan un buen desarrollo del proyecto, y siempre estar al tanto de que se haga lo mejor de lo mejor.
+![Leonardo](../../report/assets/images/Leonardo.png) | *Leonardo Gabriel, Lopez Torres u20241a649* |Mi nombre es Lopez Torres Leonardo Gabriel, estoy estudiando en la universidad UPC, estoy en mi 5to ciclo de la carrera, me gusta jugar videojuegos, salir y ayudar a mis compañeros, una de mis mayores responsabilidades es la responsabilidad. Mi objetivo en este grupo es el de poder aportar siempre ayuda al grupo, además de comunicación ágil y poder conseguir más experiencias para proyectos futuros.
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+# What (¿Cuál es el problema?)
+
+Actualmente, el sector de distribución y envasado de balones de gas presenta múltiples problemas relacionados con la seguridad, el control de calidad y la gestión logística. Se han identificado casos donde balones de gas presentan fugas en válvulas, corrosión y fallas técnicas, lo que representa un alto riesgo para usuarios y trabajadores, además de generar pérdidas económicas para las empresas. Un ejemplo de ello es la inmovilización de cientos de balones por no cumplir condiciones seguras, evidenciando fallas en su estado y mantenimiento (Decana Uno, 2025). Como consecuencia, se producen fugas de gas que no siempre se detectan a tiempo.
+
+Asimismo, el problema se agrava por la existencia de un mercado informal altamente extendido, donde circulan millones de balones adulterados o en mal estado. Se estima que más de cuatro millones de cilindros no cumplen normas técnicas (Panamericana, 2025), muchos de ellos con contenido reducido (mermas), daños físicos o manipulaciones ilegales, incrementando el riesgo de fugas, incendios y pérdidas económicas tanto para empresas como para distribuidores.
+
+Otro problema relevante es la inseguridad durante el transporte de balones de gas, ya que los camiones de distribución están expuestos a robos en ruta debido a la falta de sistemas de monitoreo y seguimiento en tiempo real. Esto impide conocer la ubicación exacta de las unidades y reaccionar oportunamente ante incidentes, generando pérdidas significativas de inventario y afectando la rentabilidad de las empresas.
+
+En el ámbito financiero, tanto empresas como distribuidores enfrentan problemas de deudas debido a pagos atrasados por parte de los clientes. En muchos casos, el registro de deudas se realiza manualmente, generando desorden y dificultando el seguimiento de pagos pendientes.
+
+Finalmente, los distribuidores de gas también enfrentan problemas relacionados con la desconfianza hacia el personal de delivery, especialmente motorizados, debido a riesgos de robo, mala manipulación de balones o informalidades durante la entrega. Además, muchas distribuidoras continúan gestionando inventarios de manera manual, utilizando papel y lapicero, lo que ocasiona errores en el control de stock, desabastecimiento y falta de planificación adecuada.
+
+# When (¿Cuándo ocurre?)
+
+Las problemáticas identificadas ocurren en distintas etapas del proceso operativo, desde el almacenamiento hasta la distribución y la postventa.
+
+Los problemas de fugas y fallas técnicas pueden presentarse durante el almacenamiento de los balones, especialmente en espacios abiertos donde están expuestos a condiciones ambientales que aceleran su deterioro, así como durante su manipulación en las plantas envasadoras.
+
+Asimismo, las deficiencias en el control de inventario y registro de entradas y salidas ocurren diariamente, principalmente en distribuidoras que aún utilizan métodos manuales.
+
+Por otro lado, los problemas logísticos como desabastecimiento y falta de planificación ocurren durante los procesos de distribución y abastecimiento de balones.
+
+En cuanto a la seguridad, los robos suelen ocurrir durante el transporte en ruta debido a la falta de monitoreo en tiempo real de los vehículos.
+
+Finalmente, los problemas de deudas y cobranza aparecen después de la venta, cuando los clientes no realizan sus pagos dentro de los plazos establecidos y no existe un sistema adecuado para hacer seguimiento.
+
+# Where (¿Dónde ocurre?)
+
+Estas problemáticas se presentan en diferentes partes del proceso de distribución y almacenamiento de balones de gas.
+
+Ocurren en plantas envasadoras y almacenes de distribuidoras, donde pueden producirse fugas o fallas técnicas que muchas veces no son detectadas a tiempo. Esto sucede especialmente en espacios abiertos donde el olor del gas no se percibe inmediatamente.
+
+También se presentan problemas logísticos en distribuidoras y puntos de venta, donde el control de inventario no es preciso debido al uso de registros manuales.
+
+Además, estas dificultades ocurren durante el transporte en rutas de distribución, donde pueden producirse robos o pérdidas por falta de seguimiento en tiempo real.
+
+Por último, en la relación entre empresas, distribuidores y clientes también se presentan problemas para controlar pagos y deudas pendientes.
+
+# Who (¿Quiénes son los afectados?)
+
+Los principales afectados son las empresas envasadoras de balones de gas, ya que enfrentan pérdidas económicas debido a fugas, robos y mala gestión del inventario. Además, la falta de control en la distribución afecta su rentabilidad y la seguridad de sus operaciones.
+
+Asimismo, los distribuidores de gas también se ven perjudicados debido a las dificultades para controlar stock, gestionar ventas y realizar seguimiento de deudas cuando utilizan métodos manuales.
+
+Finalmente, los clientes finales también resultan afectados por los riesgos asociados a balones en mal estado, posibles sobrecostos y un servicio deficiente durante la entrega e instalación del producto.
+
+# Why (¿Por qué ocurre?)
+
+Estos problemas ocurren principalmente por la falta de herramientas tecnológicas que permitan un control adecuado de las operaciones en las empresas y distribuidoras de balones de gas.
+
+Muchos procesos todavía se manejan manualmente mediante papel y lapicero, lo que genera desorden, errores y dificultad para acceder rápidamente a información confiable.
+
+Además, no existen sistemas que permitan monitorear condiciones críticas en almacenes o zonas de trabajo, donde pueden producirse fugas de gas sin ser detectadas a tiempo debido a la ausencia de sensores ambientales.
+
+Asimismo, la falta de seguimiento en tiempo real durante la distribución impide controlar rutas, prevenir robos y tener una trazabilidad adecuada de los balones.
+
+Estas limitaciones generan riesgos de seguridad, pérdidas económicas y una gestión poco eficiente en toda la operación.
+
+# How (¿Cómo ocurre?)
+
+Estas problemáticas se producen debido a una combinación de procesos deficientes, falta de control y ausencia de tecnología adecuada.
+
+Las fugas de gas ocurren por deterioro de balones, fallas en válvulas o mala manipulación, y muchas veces no son detectadas oportunamente porque no existen sistemas de monitoreo ambiental.
+
+Por otro lado, los errores en inventario y gestión de balones se originan porque muchas empresas realizan registros manuales utilizando papel o métodos poco organizados. Esto provoca pérdida de información y dificultad para conocer el stock real disponible.
+
+Durante la distribución, los robos y pérdidas ocurren debido a la falta de seguimiento en tiempo real de los vehículos, lo que impide controlar rutas y responder rápidamente ante incidentes.
+
+Finalmente, los problemas de cobranza se producen porque no existe un sistema organizado para registrar y hacer seguimiento a las deudas de los clientes, afectando directamente la gestión financiera.
+
+# How Much (¿Cuánto impacta?)
+
+Las problemáticas del sector generan un impacto económico, operativo y de seguridad considerable.
+
+Se estima que en Perú existen más de 4 millones de balones de gas que no cumplen normas técnicas (Panamericana, 2025), representando riesgos de fugas, mermas y pérdidas económicas millonarias para empresas y distribuidores.
+
+Además, operativos recientes han inmovilizado cientos de balones por fallas técnicas (Decana Uno, 2025), generando pérdidas directas debido a que estos cilindros no pueden comercializarse hasta ser reparados.
+
+Las fugas no detectadas pueden ocasionar pérdidas de entre 20% y 25% del contenido de un balón, reduciendo considerablemente su valor comercial.
+
+En el ámbito logístico, un robo durante el transporte puede representar pérdidas aproximadas entre S/ 10,000 y S/ 40,000 por incidente, considerando que un camión puede transportar entre 200 y 400 balones.
+
+Por otro lado, la falta de control de inventario puede ocasionar desabastecimiento o sobrestock, afectando directamente las ventas y la operación diaria.
+
+Finalmente, en pequeños distribuidores, entre un 10% y 30% de las ventas pueden quedar como deuda pendiente, afectando el flujo de caja y la capacidad de reinversión del negocio.
+
+# 1.2.2 Lean UX Process
+
+## 1.2.2.1. Lean UX Problem Statements
+
+El sector de distribución y envasado de balones de GLP en el Perú continúa operando con un bajo nivel de digitalización y con procesos altamente dependientes de controles manuales. Actualmente, muchas empresas envasadoras y distribuidoras aún gestionan el inventario, las ventas, las cobranzas y el seguimiento de entregas mediante cuadernos, llamadas telefónicas, mensajes de WhatsApp o registros básicos en Excel. Esta situación genera desorden operativo, errores en el control de balones, dificultades para supervisar repartos y poca capacidad de respuesta ante incidentes relacionados con fugas de gas o problemas logísticos.
+
+Además, el mercado enfrenta un contexto de alto riesgo operativo y de seguridad. Se estima que en el Perú existen más de 4 millones de balones de gas que no cumplen normas técnicas, muchos de ellos con válvulas deterioradas, corrosión o daños estructurales, incrementando el riesgo de fugas, pérdidas económicas y accidentes. A esto se suman problemas frecuentes como robos durante el transporte, pérdidas de stock, dificultades para controlar créditos y cobranzas, así como la falta de trazabilidad sobre quién realiza cada entrega y en qué ubicación se encuentra el reparto.
+
+Aunque actualmente existen soluciones tecnológicas orientadas al sector GLP, la mayoría aborda únicamente partes aisladas del problema. Algunas plataformas se enfocan en la gestión logística o monitoreo de inventario, mientras que otras se especializan en consumo de gas, analítica o facturación. Sin embargo, ninguna integra de manera accesible para pequeñas y medianas empresas funcionalidades clave como monitoreo de seguridad mediante alertas de fuga, control operativo de balones, seguimiento de repartidores en tiempo real, gestión de cobranzas y centralización de información en una sola plataforma. Como consecuencia, muchas empresas continúan utilizando procesos manuales paralelos incluso después de adoptar herramientas digitales.
+
+A partir de las entrevistas realizadas a distribuidores y representantes del sector, identificamos una oportunidad importante para desarrollar una solución digital centralizada que permita mejorar la seguridad, trazabilidad y eficiencia operativa del negocio. Los usuarios entrevistados mostraron interés en herramientas que faciliten el control de inventario, reduzcan errores manuales, permitan supervisar repartidores y ayuden a reaccionar rápidamente ante incidentes relacionados con fugas o pérdidas.
+
+Por ello, Regula propone una plataforma web enfocada en empresas y distribuidores de gas que integra monitoreo de seguridad, registro digital de operaciones, seguimiento logístico y control administrativo en un solo entorno. La solución busca reducir riesgos operativos, mejorar la organización del negocio y brindar mayor visibilidad sobre el estado de los balones, las entregas y las operaciones diarias mediante una herramienta accesible y adaptable al contexto real del sector GLP.
+
+---
+
+## 1.2.2.2. Lean UX Assumptions
+
+### Business Assumptions
+
+#### Assumption 1
+Creemos que las empresas envasadoras y distribuidoras de gas presentan dificultades para supervisar de forma eficiente sus operaciones debido al uso de procesos manuales o herramientas dispersas para registrar inventario, ventas y movimientos de balones.
+
+#### Assumption 2
+Creemos que la falta de monitoreo preventivo en zonas de almacenamiento y distribución incrementa el riesgo de fugas de gas, accidentes operativos y pérdidas económicas dentro del sector GLP.
+
+#### Assumption 3
+Creemos que los distribuidores de gas necesitan mayor visibilidad y trazabilidad sobre sus entregas, repartidores y rutas de distribución para reducir pérdidas, retrasos e incidentes operativos.
+
+#### Assumption 4
+Creemos que los pequeños y medianos distribuidores de gas están dispuestos a adoptar herramientas digitales si estas son fáciles de utilizar y les ayudan a reducir errores operativos y mejorar el control de sus negocios.
+
+#### Assumption 5
+Creemos que los usuarios del sector GLP valoran más una solución centralizada que integre seguridad, monitoreo y gestión operativa en una sola plataforma, en lugar de utilizar múltiples herramientas separadas.
+
+#### Assumption 6
+Creemos que la falta de control organizado sobre pagos pendientes y clientes con crédito afecta negativamente el flujo de ingresos y la planificación financiera de los distribuidores de gas.
+
+#### Assumption 7
+Creemos que las empresas y distribuidores de gas consideran importante reaccionar rápidamente ante incidentes relacionados con fugas, pérdidas o problemas logísticos para evitar impactos económicos y riesgos de seguridad.
+
+#### Assumption 8
+Creemos que los distribuidores necesitan acceso rápido y confiable a la información histórica de sus operaciones para mejorar la toma de decisiones relacionadas con inventario, abastecimiento y distribución.
+
+#### Assumption 9
+Creemos que existe una oportunidad en el mercado para una solución enfocada específicamente en pequeñas y medianas empresas del sector GLP, ya que muchas plataformas actuales están orientadas a grandes corporaciones o cubren solo partes del problema.
+
+#### Assumption 10
+Creemos que un modelo de suscripción mensual sería aceptado por empresas y distribuidores del sector si la solución demuestra beneficios concretos relacionados con seguridad, organización operativa y reducción de pérdidas.
+
+### Users
+
+- Empresas envasadoras de gas.
+- Distribuidores de gas.
+
+### Users Outcomes
+
+- Tener mayor control sobre inventario y movimientos de balones.
+- Detectar riesgos operativos de forma más rápida.
+- Mejorar el seguimiento de repartidores y entregas.
+- Reducir errores generados por procesos manuales.
+- Mejorar el control de cobranzas y pagos pendientes.
+- Acceder rápidamente a información relevante del negocio.
+- Tener mayor trazabilidad sobre las operaciones diarias.
+
+### Features
+
+- Dashboard centralizado de monitoreo.
+- Registro digital de entradas y salidas de balones.
+- Gestión de ventas y cobranzas.
+- Alertas automáticas ante posibles fugas o anomalías.
+- Seguimiento de entregas y geolocalización.
+- Historial de operaciones y movimientos.
+- Gestión de repartidores y vehículos.
+- Reportes operativos y administrativos.
+
+### Tabla de Assumptions
+
+| Assumption relacionada | Outcome esperado | Definition of Done |
+|---|---|---|
+| 1, 8 | Mejor organización y control operativo | El 80% de los usuarios deja de utilizar registros manuales tras 60 días de uso |
+| 2, 7 | Reducción de riesgos y tiempos de respuesta | El 70% de los usuarios reporta una mejora en la detección y reacción ante incidentes |
+| 3 | Mayor trazabilidad en la distribución | El 75% de las entregas activas puede ser supervisada correctamente por los distribuidores |
+| 4, 5, 9 | Adopción de la plataforma por el segmento objetivo | Al menos 10 distribuidores utilizan activamente la plataforma durante el piloto |
+| 6 | Mejor control financiero | El 70% de los distribuidores reporta mejoras en el seguimiento de pagos y deudas |
+| 10 | Validación del modelo de negocio | El 60% de los usuarios piloto muestra intención de pago al finalizar el periodo de prueba |
+
+---
+
+### Priorización de Assumptions
+
+| Assumption | Riesgo | Impacto | Prioridad | Justificación |
+|---|---|---|---|---|
+| Assumption 1 | Alto | Alto | Alta | Si los usuarios no tienen problemas con procesos manuales, la plataforma perdería gran parte de su valor. |
+| Assumption 2 | Alto | Alto | Alta | La necesidad de monitoreo preventivo es clave para justificar las alertas y el enfoque de seguridad. |
+| Assumption 3 | Medio | Alto | Alta | El control de repartidores y entregas es uno de los principales problemas identificados en entrevistas. |
+| Assumption 4 | Alto | Alto | Alta | Si los distribuidores no están dispuestos a digitalizar sus procesos, la adopción del producto sería baja. |
+| Assumption 5 | Medio | Medio | Media | La integración de múltiples funcionalidades aporta diferenciación frente a competidores. |
+| Assumption 6 | Medio | Medio | Media | El problema de cobranzas afecta la organización financiera de algunos distribuidores. |
+| Assumption 7 | Medio | Alto | Alta | La rapidez ante incidentes impacta directamente en seguridad y pérdidas económicas. |
+| Assumption 8 | Bajo | Medio | Media | El acceso a información histórica mejora la planificación operativa. |
+| Assumption 9 | Alto | Alto | Alta | La propuesta depende de que exista una oportunidad real en pymes del sector GLP. |
+| Assumption 10 | Alto | Medio | Media | La viabilidad del modelo SaaS depende de la aceptación del pago por suscripción. |
+
+---
+
+## 1.2.2.3. Lean UX Hypothesis Statements
+
+### Business Hypothesis
+
+Creemos que implementar un módulo de alertas automáticas ante detección de fugas mediante sensores de gas logrará reducir las pérdidas económicas por incidentes no detectados a tiempo cuando los distribuidores y empresas de gas logren identificar anomalías antes de que escalen a situaciones de riesgo. Sabremos que estamos en lo correcto cuando los usuarios registren una reducción del 20% en pérdidas económicas relacionadas a fugas durante los primeros 3 meses de uso.
+
+Creemos que ofrecer un panel central de registro digital de entradas, salidas y ventas de balones logrará reemplazar los procesos manuales en papel o cuaderno cuando los distribuidores logren consultar y actualizar su inventario en tiempo real sin depender de registros físicos. Sabremos que estamos en lo correcto cuando el 80% de los distribuidores activos deje de usar registros manuales tras 60 días de uso de la plataforma.
+
+Creemos que incluir un módulo de seguimiento de entregas con geolocalización en tiempo real e información del repartidor y vehículo logrará reducir los tiempos muertos y las pérdidas por robo durante el reparto cuando los distribuidores logren conocer en todo momento la ubicación y responsable de cada entrega activa. Sabremos que estamos en lo correcto cuando se registre una reducción del 30% en incidencias durante el reparto y una mejora del 35% en la asignación de rutas dentro del primer trimestre.
+
+Creemos que incorporar un módulo de cobranzas con registro de deudas, pagos pendientes y clientes con crédito logrará mejorar el flujo de ingresos de los distribuidores cuando los distribuidores logren tener visibilidad clara de quién debe, cuánto y desde cuándo, sin depender de anotaciones manuales. Sabremos que estamos en lo correcto cuando el 70% de los usuarios reporten una mejora en el seguimiento de cobros y una reducción del tiempo dedicado a gestionar deudas en al menos un 40%.
+
+### User Hypothesis
+
+Creemos que un dashboard simple e intuitivo para registrar ventas, entradas y salidas de balones logrará que los distribuidores abandonen el uso de cuadernos y registros físicos cuando los usuarios logren encontrar cualquier registro pasado en segundos sin búsquedas desesperadas. Sabremos que estamos en lo correcto cuando el 80% de los distribuidores reporten que ya no tienen dificultades para recuperar información histórica de sus operaciones.
+
+Creemos que mostrar en tiempo real la ubicación, ruta y datos del motorizado encargado de cada entrega logrará que los distribuidores tengan control total sobre su personal de reparto cuando los usuarios logren informar tiempos de entrega aproximados con precisión a sus clientes. Sabremos que estamos en lo correcto cuando los distribuidores reduzcan en un 40% las quejas por entregas tardías o sin información de seguimiento.
+
+Creemos que ofrecer un módulo de identificación y registro del estado de balones con alertas ante condiciones anómalas logrará que los supervisores detecten balones defectuosos de forma más rápida y segura cuando los usuarios logren revisar el estado de sus balones sin depender de inspecciones visuales manuales. Sabremos que estamos en lo correcto cuando los usuarios reduzcan el tiempo de identificación de balones defectuosos en un 30% y reporten una mayor sensación de seguridad en sus operaciones diarias.
+
+Creemos que contar con un historial detallado de movimientos y un módulo de trazabilidad por operación logrará que los distribuidores planifiquen mejor sus compras y eviten quedarse sin stock cuando los usuarios logren anticipar la demanda por zona basándose en datos reales de su historial. Sabremos que estamos en lo correcto cuando los distribuidores reporten una reducción del 25% en episodios de desabastecimiento durante el primer trimestre de uso.
+
+---
+
+## 1.2.2.4. Lean UX Canvas
+
+| Problema de negocio | Solución propuesta | Segmentos objetivo | Propuesta de valor |
+|---|---|---|---|
+| Fugas de gas por válvulas defectuosas o balones dañados.<br><br>Balones sin mantenimiento, oxidados o con fallas estructurales.<br><br>Riesgo de accidentes como explosiones e incendios.<br><br>Falta de control en el transporte, incluyendo robos y pérdidas.<br><br>Gestión manual ineficiente en registros de entrada, salida y ventas.<br><br>Dependencia excesiva de procesos manuales mediante cuadernos y llamadas.<br><br>Falta de monitoreo en tiempo real de repartidores y entregas.<br><br>Dificultad para controlar cobranzas y clientes con deuda.<br><br>Estrés operativo generado por duplicación y pérdida de registros. | Detección de fugas con generación de alertas en tiempo real.<br><br>Plataforma web y móvil con módulos de geolocalización, registro de entrada y salida, gestión de pedidos y control de clientes.<br><br>Sistema de seguridad con notificaciones automáticas.<br><br>Dashboard administrativo centralizado.<br><br>Control digital de inventario en tiempo real.<br><br>Historial de ventas, cobranzas y clientes.<br><br>Seguimiento GPS de repartidores y unidades. | - Empresas de gas.<br>- Distribuidores de gas. | A diferencia de otras soluciones del mercado enfocadas únicamente en monitoreo de consumo, facturación o gestión logística, la propuesta integra seguridad preventiva, monitoreo operativo y gestión administrativa en una sola plataforma accesible para empresas y distribuidores de gas.<br><br>Además, incorpora funcionalidades orientadas específicamente a los problemas identificados durante las entrevistas, como control de inventario en tiempo real, seguimiento de repartidores mediante geolocalización, registro digital de ventas y alertas automáticas ante fugas o incidentes operativos. |
+
+| Usuario | Hipótesis | Métricas clave | Resultados esperados |
+|---|---|---|---|
+| Detectar fugas de gas en tiempo real.<br><br>Garantizar seguridad en el hogar y durante el transporte.<br><br>Tener control del inventario de balones.<br><br>Monitorear la ubicación de pedidos y repartidores.<br><br>Automatizar registros de entrada, salida y ventas.<br><br>Recibir alertas inmediatas ante riesgos.<br><br>Reducir errores en registros manuales.<br><br>Mejorar el control operativo diario.<br><br>Gestionar cobranzas y seguimiento de clientes.<br><br>Supervisar repartidores y entregas en tiempo real.<br><br>Acceder rápidamente al historial de ventas y movimientos. | Se plantea que, si se implementa un sistema con sensores inteligentes y una plataforma de monitoreo en tiempo real, entonces las empresas y usuarios podrán prevenir fugas y mejorar la gestión de balones, lo que permitirá reducir accidentes y optimizar la distribución. | Número de fugas detectadas.<br><br>Tiempo de respuesta ante alertas.<br><br>Cantidad de balones monitoreados.<br><br>Número de pedidos gestionados.<br><br>Reducción de pérdidas y robos.<br><br>Usuarios activos en la plataforma.<br><br>Tiempo promedio de entrega.<br><br>Número de errores en registros operativos.<br><br>Número de incidencias detectadas y resueltas.<br><br>Cantidad de usuarios activos en la plataforma.<br><br>Nivel de satisfacción de empresas y distribuidores. | Reducción de accidentes relacionados con fugas de gas.<br><br>Disminución de pérdidas de balones.<br><br>Mayor eficiencia en los procesos de distribución.<br><br>Incremento en la confianza del cliente.<br><br>Digitalización de los procesos operativos.<br><br>Reducción del tiempo de gestión operativa.<br><br>Mayor trazabilidad de entregas y operaciones.<br><br>Disminución de errores humanos y pérdidas de información.<br><br>Mejor organización logística y administrativa.<br><br>Incremento de confianza y seguridad en la operación. |
+
+
+# 1.3. Segmentos objetivo
+
+## Empresas de gas (productoras y distribuidoras a gran escala)
+
+### Descripción
+Son empresas encargadas de la producción, almacenamiento y distribución masiva de balones de gas (GLP). Manejan grandes volúmenes de inventario y operan mediante plantas, centros de almacenamiento y flotas de transporte. Su operación incluye procesos críticos como llenado, inspección, almacenamiento y despacho de balones.
+
+### Necesidad
+Requieren soluciones tecnológicas que les permitan:
+
+- Detectar fugas de gas en tiempo real durante almacenamiento y transporte.
+- Reducir pérdidas económicas por fugas, robos o balones defectuosos.
+- Optimizar la gestión logística (entrada, salida y distribución).
+- Garantizar el cumplimiento de normas de seguridad industrial.
+
+### Sustento
+Las fugas de gas representan un riesgo importante en entornos industriales y domésticos, siendo una de las principales causas de accidentes relacionados con energía. La implementación de sistemas de monitoreo y detección temprana permite reducir significativamente estos riesgos y mejorar la seguridad operativa (Organización Mundial de la Salud, 2023). Asimismo, la digitalización de procesos logísticos en empresas permite optimizar la trazabilidad, reducir pérdidas y mejorar la eficiencia en la cadena de suministro (Banco Interamericano de Desarrollo, 2020).
+
+---
+
+## Distribuidores de gas (minoristas y puntos de venta)
+
+### Descripción
+Son pequeños y medianos negocios que se encargan de la distribución directa de balones de gas a consumidores finales. Incluyen locales físicos y repartidores (motorizados o camiones). Suelen manejar procesos más manuales y con menor nivel tecnológico.
+
+### Necesidad
+Necesitan herramientas accesibles que les permitan:
+
+- Detectar fugas de gas en sus locales o puntos de almacenamiento.
+- Monitorear la seguridad de los balones (sensores, alertas).
+- Gestionar pedidos y entregas (geolocalización de motorizados).
+- Llevar registro de ventas, entrada y salida de balones.
+- Controlar cobranzas a clientes (especialmente fiados).
+
+### Sustento
+En América Latina, muchas pequeñas y medianas empresas aún operan con procesos manuales, lo que incrementa los riesgos operativos, errores en gestión y pérdidas económicas. La adopción de herramientas digitales mejora significativamente la eficiencia, control y seguridad en sus operaciones (Banco Interamericano de Desarrollo, 2020). Además, la prevención de riesgos asociados al gas es clave para reducir accidentes en entornos comerciales y domésticos (Organización Mundial de la Salud, 2023).
+
 <div style="page-break-after: always;"></div>
 
 # Capitulo I Introducción
