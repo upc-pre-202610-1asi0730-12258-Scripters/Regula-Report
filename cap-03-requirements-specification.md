@@ -68,50 +68,61 @@
 
 # 3.3. Product Backlog
 
-| Orden | User Story ID | Título | Descripción | Story Points |
-|---|---|---|---|---|
-| 1 | US-01 | Monitoreo de fugas en tiempo real | Como empresa de gas, quiero monitorear en tiempo real la presencia de gas en almacenes y zonas operativas, para detectar fugas rápidamente y prevenir accidentes. | 8 |
-| 2 | US-02 | Recepción de alertas de riesgo | Como supervisor de una empresa de gas, quiero recibir alertas automáticas cuando se detecte una posible fuga o anomalía, para responder de forma oportuna ante un riesgo. | 5 |
-| 3 | US-39 | Visualización de alertas en tiempo real | Como distribuidor de gas, quiero visualizar alertas en tiempo real, para actuar rápidamente ante avisos activos. | 5 |
-| 4 | US-15 | Priorización de alertas críticas | Como usuario de la plataforma, quiero que las alertas más críticas se muestren primero, para atender antes los riesgos más urgentes. | 3 |
-| 5 | US-27 | Historial de alertas atendidas | Como supervisor de seguridad, quiero ver cuáles alertas ya fueron atendidas y cuáles siguen pendientes, para no dejar riesgos sin seguimiento. | 3 |
-| 6 | US-21 | Consulta de zonas con mayor riesgo | Como supervisor de seguridad, quiero identificar qué zonas de la planta o almacén presentan más alertas o incidentes, para enfocar mejor la prevención. | 5 |
-| 7 | US-16 | Consulta del estado de almacenes | Como supervisor de planta, quiero consultar el estado de los almacenes en tiempo real, para verificar si existen condiciones de riesgo o normalidad. | 5 |
-| 8 | US-04 | Registro de entrada de balones (empresa) | Como personal de almacén, quiero registrar digitalmente la entrada de balones, para mantener un control ordenado y actualizado del inventario. | 5 |
-| 9 | US-05 | Registro de salida de balones (empresa) | Como personal de almacén, quiero registrar digitalmente la salida de balones, para llevar un control exacto de los despachos realizados. | 5 |
-| 10 | US-07 | Control de inventario centralizado | Como gerente de operaciones, quiero tener el inventario centralizado en una sola plataforma, para conocer con claridad la disponibilidad y estado de los balones. | 8 |
-| 11 | US-03 | Visualización del estado general de operaciones | Como encargado operativo, quiero visualizar en un panel principal el estado general de las operaciones, para supervisar rápidamente alertas, inventario y movimientos. | 8 |
-| 12 | US-06 | Consulta del historial de movimientos (empresa) | Como supervisor, quiero consultar el historial de movimientos de los balones, para revisar su trazabilidad y tomar mejores decisiones. | 5 |
-| 13 | US-31 | Registro de entrada de balones (distribuidor) | Como distribuidor, quiero registrar la entrada de balones, para mantener actualizado mi inventario diario. | 5 |
-| 14 | US-32 | Registro de salida de balones (distribuidor) | Como distribuidor, quiero registrar la salida de balones, para controlar mis ventas diarias. | 5 |
-| 15 | US-36 | Consulta del stock actual (distribuidor) | Como distribuidor, quiero ver mi stock actual en tiempo real, para no quedarme sin balones. | 3 |
-| 16 | US-50 | Consulta de historial de entradas y salidas | Como distribuidor, quiero consultar el historial de entradas y salidas de mis balones, para revisar mis operaciones pasadas sin buscar en cuadernos. | 3 |
-| 17 | US-14 | Seguimiento de incidencias operativas | Como empresa de gas, quiero registrar y dar seguimiento a incidencias operativas como fugas, fallas o problemas logísticos, para responder de manera ordenada y oportuna. | 5 |
-| 18 | US-08 | Ubicación de entregas en tiempo real (empresa) | Como empresa de gas, quiero ver en tiempo real la ubicación de las entregas, para supervisar el transporte y reaccionar ante incidentes. | 8 |
-| 19 | US-34 | Ubicación de repartidores en tiempo real | Como distribuidor, quiero ver la ubicación de mis repartidores en tiempo real, para tener control de las entregas. | 8 |
-| 20 | US-11 | Supervisión de rutas de distribución | Como supervisor logístico, quiero supervisar las rutas de distribución, para verificar que las entregas sigan el recorrido previsto. | 8 |
-| 21 | US-35 | Alertas por desvío de ruta | Como distribuidor, quiero recibir alertas si un repartidor se desvía de la ruta, para prevenir robos y detectar recorridos inusuales. | 8 |
-| 22 | US-51 | Seguimiento de entregas en ruta | Como distribuidor, quiero ver en qué estado están mis entregas en ruta, para saber si el pedido ya salió, sigue en camino o ya fue entregado. | 5 |
-| 23 | US-09 | Consulta del responsable del reparto | Como supervisor logístico, quiero saber quién es el responsable de cada reparto, para tener mayor control y trazabilidad sobre las entregas. | 5 |
-| 24 | US-10 | Consulta de datos del vehículo | Como encargado logístico, quiero consultar los datos del vehículo asignado a cada entrega, para identificar correctamente la unidad de transporte. | 3 |
-| 25 | US-54 | Registro de ventas del día | Como distribuidor, quiero registrar mis ventas diarias en la plataforma, para llevar un mejor control comercial del negocio. | 3 |
-| 26 | US-55 | Control de clientes con deuda | Como distribuidor, quiero registrar qué clientes me deben dinero, para llevar un control claro de mis cobranzas y fiados pendientes. | 5 |
-| 27 | US-56 | Registro de pagos realizados por clientes | Como distribuidor, quiero registrar los pagos que realizan mis clientes, para actualizar correctamente sus deudas y mantener el estado financiero al día. | 5 |
-| 28 | US-57 | Consulta de clientes con fiado pendiente | Como distribuidor, quiero consultar la lista de clientes con fiados pendientes, para priorizar la cobranza y cuidar mi flujo de dinero. | 3 |
-| 29 | US-23 | Visualización de tendencias de incidentes | Como gerente, quiero visualizar tendencias de alertas e incidentes a lo largo del tiempo, para detectar patrones y mejorar la operación. | 5 |
-| 30 | US-26 | Generación de reportes operativos | Como empresa de gas, quiero generar reportes operativos del inventario, alertas y distribución, para revisar resultados y compartir información interna. | 8 |
-| 31 | US-22 | Programación de revisiones periódicas | Como supervisor técnico, quiero programar revisiones periódicas de balones y áreas operativas, para mantener un control preventivo constante. | 8 |
-| 32 | US-17 | Gestión de usuarios con distintos roles | Como administrador del sistema, quiero gestionar usuarios con diferentes roles, para asignar accesos según sus responsabilidades. | 8 |
-| 33 | US-29 | Control de acceso a información sensible | Como administrador del sistema, quiero restringir el acceso a cierta información sensible, para proteger datos importantes de la operación. | 8 |
-| 34 | US-44 | Comparación entre sedes o almacenes | Como empresa de gas con varias sedes, quiero comparar el desempeño y nivel de riesgo entre almacenes, para detectar cuál necesita más atención. | 8 |
-| 35 | US-20 | Escalabilidad según necesidad de la empresa | Como empresa de gas en crecimiento, quiero que la plataforma se adapte al aumento de almacenes, rutas y balones, para seguir usándola a medida que la operación crece. | 8 |
-| 36 | US-60 | Hero Visualization | Como visitante interesado en soluciones para distribución de gas, quiero comprender rápidamente la propuesta de valor de Regula para decidir si la plataforma puede ayudar a mejorar mis operaciones y seguridad. | 5 |
-| 37 | US-61 | Features Review | Como empresa de gas o distribuidor, quiero conocer claramente cómo funciona Regula y qué problemas resuelve para evaluar si la solución se adapta a mis necesidades operativas. | 5 |
-| 38 | US-62 | Login and Sign Up | Como potencial cliente, quiero acceder fácilmente al inicio de sesión y registro para comenzar a utilizar la plataforma sin complicaciones. | 3 |
-| 39 | US-63 | Benefits Inquiry | Como distribuidor de gas, quiero conocer los beneficios principales de Regula para identificar cómo puede ayudarme a reducir errores, mejorar la seguridad y optimizar mis operaciones diarias. | 5 |
-| 40 | US-64 | Plan Comparison | Como empresa de gas en crecimiento, quiero comparar los planes disponibles para elegir la opción que mejor se adapte al tamaño y necesidades de mi operación. | 8 |
-| 41 | US-65 | Frequently Asked Questions Inquiry | Como visitante interesado en Regula, quiero resolver mis dudas rápidamente para sentir mayor confianza antes de solicitar una demostración o registrarme. | 3 |
-| 42 | US-66 | Footer Inquiry | Como visitante de la plataforma, quiero acceder fácilmente a información de contacto y enlaces importantes para comunicarme con Regula o navegar rápidamente por el sitio. | 2 |
+| Order | User Story ID | Title | Description | Story Points |
+|------|----------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1 | US-47 | Hero Visualization | **As a** visitor, **I want** to quickly understand what Regula is and what problem it solves, **so that** I can decide whether I want to purchase the solution or learn more about its benefits. | 3 |
+| 2 | US-48 | Features Review | **As a** visitor, **I want** to learn general information about Regula, how it helps, and its value proposition, **so that** I can better understand the purpose of the solution before acquiring it or requesting more information. | 3 |
+| 3 | US-49 | Login and Sign Up | **As a** visitor, **I want** to access the sign-in and account creation options from the Landing Page, **so that** I can enter the platform or start the registration process in Regula. | 3 |
+| 4 | US-50 | Benefits Inquiry | **As a** visitor, **I want** to consult the main benefits of Regula, **so that** I can understand how the solution can help improve safety, operational control, and efficiency in gas cylinder management. | 2 |
+| 5 | US-51 | Comparison of Plans | **As a** visitor, **I want** to compare the available Regula plans, **so that** I can identify which option best fits my needs before requesting a demo or starting the registration process. | 3 |
+| 6 | US-52 | Frequently Asked Questions Inquiry | **As a** visitor, **I want** to consult answers to frequently asked questions about Regula, **so that** I can resolve basic doubts before requesting a demo or starting the registration process. | 2 |
+| 7 | US-53 | Footer Inquiry | **As a** visitor, **I want** to consult the Landing Page footer, **so that** I can quickly access complementary information, important links, and Regula’s contact channels. | 2 |
+| 8 | US-01 | Real-Time Gas Leak Monitoring | **As a** gas company operations and maintenance manager, **I want** the system to display real-time gas detection from IoT sensors, **so that** I can quickly identify leaks and activate safety measures. | 5 |
+| 9 | US-10 | Recording and Tracking Operational Incidents | **As an** operations and maintenance person, **I want** to manually record operational incidents with descriptions, responsible parties, and status, **so that** I can manage their resolution and maintain historical evidence. | 5 |
+| 10 | US-11 | Prioritization of Critical Alerts | **As an** operations and maintenance staff member, **I want** active alerts to be automatically sorted by criticality, **so that** the most urgent risks are addressed first. | 4 |
+| 11 | US-12 | Real-Time Warehouse Status Inquiry | **As** logistics and inventory personnel, **I want** to check the current status of each warehouse or operational area, **so that** I can quickly verify risk conditions and act immediately. | 4 |
+| 12 | US-15 | Areas with Highest Frequency of Alerts | **As an** operations and maintenance staff member, **I want** to consult rankings of areas with the highest alerts and incidents, **so that** I can focus prevention efforts on problematic zones. | 4 |
+| 13 | US-16 | Scheduling Preventive Checkups | **As a** member of the operations and maintenance staff, **I want** to schedule regular inspections of cylinders and operating areas, **so that** I can implement preventive control processes. | 4 |
+| 14 | US-17 | Alert and Incident Trends Visualization | **As an** administrative supervisor, **I want** to visualize trends of alerts and incidents over time, **so that** I can identify patterns and make preventive decisions. | 5 |
+| 15 | US-21 | History of Pending and Attended Alerts | **As an** operations and maintenance staff member, **I want** to filter alerts by status, **so that** I can identify unresolved and resolved incidents quickly. | 3 |
+| 16 | US-31 | Receiving Gas Leak Alerts | **As a** distributor, **I want** to receive visible alerts when dangerous gas levels are detected, **so that** I can take safety measures before accidents occur. | 5 |
+| 17 | US-32 | Visualization of Distributor Alerts | **As a** distributor, **I want** to see all active alerts ordered by criticality, **so that** I can act immediately on urgent risks. | 4 |
+| 18 | US-36 | Security Alerts at Distributor Premises | **As a** distributor, **I want** to receive alerts about dangerous conditions in my premises, **so that** I can respond before accidents occur. | 4 |
+| 19 | US-46 | Modify Active Alert Status | **As a** company operations and maintenance manager, **I want** to modify the status of active alerts, **so that** I can keep status information updated. | 3 |
+| 20 | US-03 | Record Gas Cylinder Entries | **As a** logistics and inventory staff member, **I want** to digitally record cylinder entries, **so that** I can maintain updated inventory and ensure traceability. | 5 |
+| 21 | US-04 | Record Gas Cylinder Outputs | **As a** logistics and inventory staff member, **I want** to digitally record cylinder shipments, **so that** I can keep inventory updated in real time. | 5 |
+| 22 | US-05 | Consult Cylinder Movement History | **As an** administrative supervisor, **I want** to consult movement history with filters, **so that** I can review operational traceability. | 4 |
+| 23 | US-06 | Edit Cylinder Records | **As an** operations and maintenance staff member, **I want** to edit cylinder records, **so that** I can update operational information. | 3 |
+| 24 | US-18 | Validation of Required Data | **As a** platform user, **I want** the system to validate required fields and formats automatically, **so that** I can avoid incomplete or inconsistent records. | 4 |
+| 25 | US-22 | Add Operational Observations | **As an** operations and maintenance staff member, **I want** to add notes to records and incidents, **so that** I can document relevant operational details. | 3 |
+| 26 | US-25 | Distributor Inventory Entries | **As a** distributor, **I want** to digitally record cylinder entries into my store, **so that** I can maintain updated inventory control. | 4 |
+| 27 | US-26 | Distributor Inventory Outputs | **As a** distributor, **I want** to digitally record cylinder sales and dispatches, **so that** I can automatically deduct stock and track sales. | 4 |
+| 28 | US-27 | Distributor Transaction History | **As a** distributor, **I want** to consult my inventory transaction history, **so that** I can verify discrepancies and maintain traceability. | 4 |
+| 29 | US-29 | Real-Time Stock Availability | **As a** distributor, **I want** to check the current stock of cylinders by type, **so that** I can avoid offering unavailable products. | 3 |
+| 30 | US-30 | Stock Update After Payment | **As a** distributor, **I want** stock to update automatically after orders are placed, **so that** inventory remains accurate in real time. | 4 |
+| 31 | US-07 | Assigned Distribution Information | **As a** logistics and inventory staff member, **I want** to consult assigned delivery and vehicle information, **so that** I can maintain distribution traceability. | 4 |
+| 32 | US-24 | Pending and Completed Deliveries | **As a** logistics and inventory staff member, **I want** to view completed and pending deliveries separately, **so that** I can prioritize overdue deliveries. | 4 |
+| 33 | US-28 | Delivery Responsibility Traceability | **As a** distributor, **I want** each delivery record to display the responsible driver, **so that** I can detect discrepancies or irregularities. | 3 |
+| 34 | US-33 | Daily Sales Summary | **As a** distributor, **I want** to view a daily sales summary, **so that** I can evaluate business performance. | 4 |
+| 35 | US-34 | Identify High Sales Days | **As a** distributor, **I want** to identify the days with the highest sales, **so that** I can better plan stock and deliveries. | 4 |
+| 36 | US-37 | Export Transaction History | **As a** distributor, **I want** to consult and export my transaction history, **so that** I can review operational traceability digitally. | 4 |
+| 37 | US-38 | Delivery Status Tracking | **As a** distributor, **I want** to track the status of ongoing deliveries, **so that** I know which orders are completed or pending. | 4 |
+| 38 | US-39 | Real-Time Driver Location | **As a** distributor, **I want** to see the real-time location of drivers on a map, **so that** I can monitor routes and estimate arrival times. | 5 |
+| 39 | US-40 | Vehicle Data per Delivery | **As a** distributor, **I want** to consult the assigned vehicle details for each delivery, **so that** I can resolve delivery-related issues. | 3 |
+| 40 | US-41 | Daily Sales Record | **As a** distributor, **I want** to register each sale digitally, **so that** inventory updates automatically with each transaction. | 4 |
+| 41 | US-42 | Customer Credit Registration | **As a** distributor, **I want** to register customer debts and credits, **so that** I can keep track of outstanding balances. | 5 |
+| 42 | US-43 | Customer Payment Registration | **As a** distributor, **I want** to register customer payments, **so that** debt balances update automatically. | 4 |
+| 43 | US-45 | Outstanding Credits Dashboard | **As a** distributor, **I want** to view pending credits on the dashboard, **so that** I can monitor debts quickly. | 3 |
+| 44 | US-02 | Dashboard Operational Overview | **As an** administrative supervisor, **I want** to visualize operational summaries on the main dashboard, **so that** I can supervise operations at a glance. | 5 |
+| 45 | US-08 | Centralized Operational Platform | **As an** administrative supervisor, **I want** to access all modules from a single integrated system, **so that** I can centralize operational information. | 5 |
+| 46 | US-09 | Historical Operational Search | **As an** administrative supervisor, **I want** to search historical records with filters, **so that** I can review operational history quickly. | 4 |
+| 47 | US-13 | User Management with Roles | **As an** administrative supervisor, **I want** to manage users with role-based permissions, **so that** each person accesses only relevant modules. | 5 |
+| 48 | US-14 | Platform Scalability | **As an** administrative supervisor, **I want** the platform to support growth with additional branches and users, **so that** operations can expand without limitations. | 5 |
+| 49 | US-19 | Daily Operational Workload Inquiry | **As a** logistics and inventory staff member, **I want** to visualize the operational workload summary, **so that** I can allocate resources effectively. | 4 |
+| 50 | US-20 | Generation of Operational Reports | **As an** administrative supervisor, **I want** to generate customizable reports, **so that** I can review results and support audits. | 5 |
+| 51 | US-23 | Access Control by Role | **As a** system administrator, **I want** to configure access restrictions by role and module, **so that** sensitive information is protected. | 5 |
+| 52 | US-35 | Operational Comparison Between Branches | **As** the owner of a gas distribution company, **I want** to compare operations between branches, **so that** I can allocate resources according to operational needs. | 4 |
+| 53 | US-44 | Complete Digitalization of Operations | **As a** distributor, **I want** to digitally register all inventories, sales, and credits, **so that** I can replace notebooks and spreadsheets with a centralized system. | 5 |
 
 ## 3.2. Impact Mapping. 
 
