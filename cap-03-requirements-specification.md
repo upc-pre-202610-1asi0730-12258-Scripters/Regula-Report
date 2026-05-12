@@ -126,3 +126,7 @@
 | 41 | US-65 | Frequently Asked Questions Inquiry | Como visitante interesado en Regula, quiero resolver mis dudas rápidamente para sentir mayor confianza antes de solicitar una demostración o registrarme. | 3 |
 | 42 | US-66 | Footer Inquiry | Como visitante de la plataforma, quiero acceder fácilmente a información de contacto y enlaces importantes para comunicarme con Regula o navegar rápidamente por el sitio. | 2 |
 
+## 3.2. Impact Mapping. 
+
+![Impact mapp 1.png](assets/images/Impact%20mapp%201.png)
+![Impact map 2.png](assets/images/Impact%20map%202.png)
