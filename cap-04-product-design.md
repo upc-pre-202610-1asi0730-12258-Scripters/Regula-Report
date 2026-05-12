@@ -599,10 +599,10 @@ Visualización en tarjetas (*cards UI*) de funcionalidades:
 - Estructura basada en **jerarquía visual** (*visual hierarchy*) para facilitar la lectura
 
 ### 4.3.1. Landing Page Wireframe.
- <img src="../../report/assets/wireframes/lading-wireframe.png">
+ <img src="././/assets/wireframes/lading-wireframe.png">
 
 ### 4.3.2. Landing Page Mock-up.
- <img src="../../report/assets/mock-ups/lading-mockup.png">
+ <img src="././/assets/mock-ups/lading-mockup.png">
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -723,68 +723,68 @@ Estos wireframes buscan garantizar una experiencia clara, rápida y enfocada en 
 
 #### Segmento: Empresas de gas
 
- <img src="../../report/assets/wireframes/empresas-wireframes.png">
-<img src="../../report/assets/wireframes/empresas-wireframes2.png">
- <img src="../../report/assets/wireframes/empresas-wireframes3.png">
+ <img src="././/assets/wireframes/empresas-wireframes.png">
+<img src="././/assets/wireframes/empresas-wireframes2.png">
+ <img src="././/assets/wireframes/empresas-wireframes3.png">
 
- <img src="../../report/assets/wireframes/empresas-wireframes4.png">
+ <img src="././/assets/wireframes/empresas-wireframes4.png">
 
- <img src="../../report/assets/wireframes/empresas-wireframes5.png">
+ <img src="././/assets/wireframes/empresas-wireframes5.png">
 
-![empresas-wireframes6.png](../assets/wireframes/empresas-wireframes6.png)
-![empresas-wireframes7.png](../assets/wireframes/empresas-wireframes7.png)
-![empresas-wireframes8.png](../assets/wireframes/empresas-wireframes8.png)
-![empresas-wireframes9.png](../assets/wireframes/empresas-wireframes9.png)
-![empresas-wireframes10.png](../assets/wireframes/empresas-wireframes10.png)
-![empresas-wireframes11.png](../assets/wireframes/empresas-wireframes11.png)
-![empresas-wireframes12.png](../assets/wireframes/empresas-wireframes12.png)
-![empresas-wireframes13.png](../assets/wireframes/empresas-wireframes13.png)
-![empresas-wireframes14.png](../assets/wireframes/empresas-wireframes14.png)
-![empresas-wireframes15.png](../assets/wireframes/empresas-wireframes15.png)
-![empresas-wireframes16.png](../assets/wireframes/empresas-wireframes16.png)
-![empresas-wireframes17.png](../assets/wireframes/empresas-wireframes17.png)
-![empresas-wireframes18.png](../assets/wireframes/empresas-wireframes18.png)
-![empresas-wireframes19.png](../assets/wireframes/empresas-wireframes19.png)
-![empresas-wireframes20.png](../assets/wireframes/empresas-wireframes20.png)
-![empresas-wireframes21.png](../assets/wireframes/empresas-wireframes21.png)
-![empresas-wireframes22.png](../assets/wireframes/empresas-wireframes22.png)
-![empresas-wireframes23.png](../assets/wireframes/empresas-wireframes23.png)
-![empresas-wireframes24.png](../assets/wireframes/empresas-wireframes24.png)
+![empresas-wireframes6.png](./assets/wireframes/empresas-wireframes6.png)
+![empresas-wireframes7.png](./assets/wireframes/empresas-wireframes7.png)
+![empresas-wireframes8.png](./assets/wireframes/empresas-wireframes8.png)
+![empresas-wireframes9.png](./assets/wireframes/empresas-wireframes9.png)
+![empresas-wireframes10.png](./assets/wireframes/empresas-wireframes10.png)
+![empresas-wireframes11.png](./assets/wireframes/empresas-wireframes11.png)
+![empresas-wireframes12.png](./assets/wireframes/empresas-wireframes12.png)
+![empresas-wireframes13.png](./assets/wireframes/empresas-wireframes13.png)
+![empresas-wireframes14.png](./assets/wireframes/empresas-wireframes14.png)
+![empresas-wireframes15.png](./assets/wireframes/empresas-wireframes15.png)
+![empresas-wireframes16.png](./assets/wireframes/empresas-wireframes16.png)
+![empresas-wireframes17.png](./assets/wireframes/empresas-wireframes17.png)
+![empresas-wireframes18.png](./assets/wireframes/empresas-wireframes18.png)
+![empresas-wireframes19.png](./assets/wireframes/empresas-wireframes19.png)
+![empresas-wireframes20.png](./assets/wireframes/empresas-wireframes20.png)
+![empresas-wireframes21.png](./assets/wireframes/empresas-wireframes21.png)
+![empresas-wireframes22.png](./assets/wireframes/empresas-wireframes22.png)
+![empresas-wireframes23.png](./assets/wireframes/empresas-wireframes23.png)
+![empresas-wireframes24.png](./assets/wireframes/empresas-wireframes24.png)
 
 
 
 ## Segmento: Distribuidores de gas
 
-![Distribuidores-wireframe1.png](../assets/wireframes/Distribuidores-wireframe1.png)
-![Distribuidores-wireframe2.png](../assets/wireframes/Distribuidores-wireframe2.png)
-![Distribuidores-wireframe3.png](../assets/wireframes/Distribuidores-wireframe3.png)
-![Distribuidores-wireframe4.png](../assets/wireframes/Distribuidores-wireframe4.png)
-![Distribuidores-wireframe5.png](../assets/wireframes/Distribuidores-wireframe5.png)
-![Distribuidores-wireframe6.png](../assets/wireframes/Distribuidores-wireframe6.png)
-![Distribuidores-wireframe7.png](../assets/wireframes/Distribuidores-wireframe7.png)
-![Distribuidores-wireframe8.png](../assets/wireframes/Distribuidores-wireframe8.png)
-![Distribuidores-wireframe9.png](../assets/wireframes/Distribuidores-wireframe9.png)
-![Distribuidores-wireframe10.png](../assets/wireframes/Distribuidores-wireframe10.png)
-![Distribuidores-wireframe11.png](../assets/wireframes/Distribuidores-wireframe11.png)
-![Distribuidores-wireframe12.png](../assets/wireframes/Distribuidores-wireframe12.png)
-![Distribuidores-wireframe13.png](../assets/wireframes/Distribuidores-wireframe13.png)
-![Distribuidores-wireframe14.png](../assets/wireframes/Distribuidores-wireframe14.png)
-![Distribuidores-wireframe15.png](../assets/wireframes/Distribuidores-wireframe15.png)
-![Distribuidores-wireframe16.png](../assets/wireframes/Distribuidores-wireframe16.png)
-![Distribuidores-wireframe17.png](../assets/wireframes/Distribuidores-wireframe17.png)
-![Distribuidores-wireframe18.png](../assets/wireframes/Distribuidores-wireframe18.png)
-![Distribuidores-wireframe19.png](../assets/wireframes/Distribuidores-wireframe19.png)
-![Distribuidores-wireframe20.png](../assets/wireframes/Distribuidores-wireframe20.png)
-![Distribuidores-wireframe21.png](../assets/wireframes/Distribuidores-wireframe21.png)
-![Distribuidores-wireframe22.png](../assets/wireframes/Distribuidores-wireframe22.png)
-![Distribuidores-wireframe23.png](../assets/wireframes/Distribuidores-wireframe23.png)
-![Distribuidores-wireframe24.png](../assets/wireframes/Distribuidores-wireframe24.png)
-![Distribuidores-wireframe25.png](../assets/wireframes/Distribuidores-wireframe25.png)
-![Distribuidores-wireframe26.png](../assets/wireframes/Distribuidores-wireframe26.png)
+![Distribuidores-wireframe1.png](./assets/wireframes/Distribuidores-wireframe1.png)
+![Distribuidores-wireframe2.png](./assets/wireframes/Distribuidores-wireframe2.png)
+![Distribuidores-wireframe3.png](./assets/wireframes/Distribuidores-wireframe3.png)
+![Distribuidores-wireframe4.png](./assets/wireframes/Distribuidores-wireframe4.png)
+![Distribuidores-wireframe5.png](./assets/wireframes/Distribuidores-wireframe5.png)
+![Distribuidores-wireframe6.png](./assets/wireframes/Distribuidores-wireframe6.png)
+![Distribuidores-wireframe7.png](./assets/wireframes/Distribuidores-wireframe7.png)
+![Distribuidores-wireframe8.png](./assets/wireframes/Distribuidores-wireframe8.png)
+![Distribuidores-wireframe9.png](./assets/wireframes/Distribuidores-wireframe9.png)
+![Distribuidores-wireframe10.png](./assets/wireframes/Distribuidores-wireframe10.png)
+![Distribuidores-wireframe11.png](./assets/wireframes/Distribuidores-wireframe11.png)
+![Distribuidores-wireframe12.png](./assets/wireframes/Distribuidores-wireframe12.png)
+![Distribuidores-wireframe13.png](./assets/wireframes/Distribuidores-wireframe13.png)
+![Distribuidores-wireframe14.png](./assets/wireframes/Distribuidores-wireframe14.png)
+![Distribuidores-wireframe15.png](./assets/wireframes/Distribuidores-wireframe15.png)
+![Distribuidores-wireframe16.png](./assets/wireframes/Distribuidores-wireframe16.png)
+![Distribuidores-wireframe17.png](./assets/wireframes/Distribuidores-wireframe17.png)
+![Distribuidores-wireframe18.png](./assets/wireframes/Distribuidores-wireframe18.png)
+![Distribuidores-wireframe19.png](./assets/wireframes/Distribuidores-wireframe19.png)
+![Distribuidores-wireframe20.png](./assets/wireframes/Distribuidores-wireframe20.png)
+![Distribuidores-wireframe21.png](./assets/wireframes/Distribuidores-wireframe21.png)
+![Distribuidores-wireframe22.png](./assets/wireframes/Distribuidores-wireframe22.png)
+![Distribuidores-wireframe23.png](./assets/wireframes/Distribuidores-wireframe23.png)
+![Distribuidores-wireframe24.png](./assets/wireframes/Distribuidores-wireframe24.png)
+![Distribuidores-wireframe25.png](./assets/wireframes/Distribuidores-wireframe25.png)
+![Distribuidores-wireframe26.png](./assets/wireframes/Distribuidores-wireframe26.png)
 
 ### 4.4.2. Web Applications Wireflows.
 
-![Wireflow.png](../assets/images/Wireflow.png)
+![Wireflow.png](./assets/images/Wireflow.png)
 https://lucid.app/lucidchart/36941ee2-c511-4d75-84d0-cb4f7b46c654/edit?viewport_loc=-11374%2C774%2C11877%2C6066%2C0_0&invitationId=inv_49f2cda5-2dfc-4742-8b7f-2a14653cd1d8
 <br>
 <br>
@@ -792,79 +792,79 @@ https://lucid.app/lucidchart/c4739cbb-7f26-48d2-9cba-473b29620e93/edit?viewport_
 
 ### 4.4.3. Web Applications Mock-ups.
 #### Segmento: Empresa de gas
-![empresas-mockups.png](../assets/mock-ups/empresas-mockups.png)
-![empresas-mockups2.png](../assets/mock-ups/empresas-mockups2.png)
-![empresas-mockups3.png](../assets/mock-ups/empresas-mockups3.png)
-![empresas-mockups4.png](../assets/mock-ups/empresas-mockups4.png)
-![empresas-mockups5.png](../assets/mock-ups/empresas-mockups5.png)
-![empresas-mockups6.png](../assets/mock-ups/empresas-mockups6.png)
-![empresas-mockups7.png](../assets/mock-ups/empresas-mockups7.png)
-![empresas-mockups8.png](../assets/mock-ups/empresas-mockups8.png)
-![empresas-mockups9.png](../assets/mock-ups/empresas-mockups9.png)
-![empresas-mockups10.png](../assets/mock-ups/empresas-mockups10.png)
-![empresas-mockups11.png](../assets/mock-ups/empresas-mockups11.png)
-![empresas-mockups12.png](../assets/mock-ups/empresas-mockups12.png)
-![empresas-mockups13.png](../assets/mock-ups/empresas-mockups13.png)
-![empresas-mockups14.png](../assets/mock-ups/empresas-mockups14.png)
-![empresas-mockups15.png](../assets/mock-ups/empresas-mockups15.png)
-![empresas-mockups16.png](../assets/mock-ups/empresas-mockups16.png)
-![empresas-mockups17.png](../assets/mock-ups/empresas-mockups17.png)
-![empresas-mockups18.png](../assets/mock-ups/empresas-mockups18.png)
-![empresas-mockups19.png](../assets/mock-ups/empresas-mockups19.png)
-![empresas-mockups20.png](../assets/mock-ups/empresas-mockups20.png)
-![empresas-mockups21.png](../assets/mock-ups/empresas-mockups21.png)
-![empresas-mockups22.png](../assets/mock-ups/empresas-mockups22.png)
-![empresas-mockups23.png](../assets/mock-ups/empresas-mockups23.png)
-![empresas-mockups24.png](../assets/mock-ups/empresas-mockups24.png)
-![empresas-mockups25.png](../assets/mock-ups/empresas-mockups25.png)
+![empresas-mockups.png](./assets/mock-ups/empresas-mockups.png)
+![empresas-mockups2.png](./assets/mock-ups/empresas-mockups2.png)
+![empresas-mockups3.png](./assets/mock-ups/empresas-mockups3.png)
+![empresas-mockups4.png](./assets/mock-ups/empresas-mockups4.png)
+![empresas-mockups5.png](./assets/mock-ups/empresas-mockups5.png)
+![empresas-mockups6.png](./assets/mock-ups/empresas-mockups6.png)
+![empresas-mockups7.png](./assets/mock-ups/empresas-mockups7.png)
+![empresas-mockups8.png](./assets/mock-ups/empresas-mockups8.png)
+![empresas-mockups9.png](./assets/mock-ups/empresas-mockups9.png)
+![empresas-mockups10.png](./assets/mock-ups/empresas-mockups10.png)
+![empresas-mockups11.png](./assets/mock-ups/empresas-mockups11.png)
+![empresas-mockups12.png](./assets/mock-ups/empresas-mockups12.png)
+![empresas-mockups13.png](./assets/mock-ups/empresas-mockups13.png)
+![empresas-mockups14.png](./assets/mock-ups/empresas-mockups14.png)
+![empresas-mockups15.png](./assets/mock-ups/empresas-mockups15.png)
+![empresas-mockups16.png](./assets/mock-ups/empresas-mockups16.png)
+![empresas-mockups17.png](./assets/mock-ups/empresas-mockups17.png)
+![empresas-mockups18.png](./assets/mock-ups/empresas-mockups18.png)
+![empresas-mockups19.png](./assets/mock-ups/empresas-mockups19.png)
+![empresas-mockups20.png](./assets/mock-ups/empresas-mockups20.png)
+![empresas-mockups21.png](./assets/mock-ups/empresas-mockups21.png)
+![empresas-mockups22.png](./assets/mock-ups/empresas-mockups22.png)
+![empresas-mockups23.png](./assets/mock-ups/empresas-mockups23.png)
+![empresas-mockups24.png](./assets/mock-ups/empresas-mockups24.png)
+![empresas-mockups25.png](./assets/mock-ups/empresas-mockups25.png)
 
 #### Segmento: Distribuidores de gas
 
-![distribuidoras-mockups.png](../assets/mock-ups/distribuidoras-mockups.png)
-![distribuidoras-mockups2.png](../assets/mock-ups/distribuidoras-mockups2.png)
-![distribuidoras-mockups3.png](../assets/mock-ups/distribuidoras-mockups3.png)
-![distribuidoras-mockups4.png](../assets/mock-ups/distribuidoras-mockups4.png)
-![distribuidoras-mockups5.png](../assets/mock-ups/distribuidoras-mockups5.png)
-![distribuidoras-mockups6.png](../assets/mock-ups/distribuidoras-mockups6.png)
-![distribuidoras-mockups7.png](../assets/mock-ups/distribuidoras-mockups7.png)
-![distribuidoras-mockups8.png](../assets/mock-ups/distribuidoras-mockups8.png)
-![distribuidoras-mockups9.png](../assets/mock-ups/distribuidoras-mockups9.png)
-![distribuidoras-mockups10.png](../assets/mock-ups/distribuidoras-mockups10.png)
-![distribuidoras-mockups11.png](../assets/mock-ups/distribuidoras-mockups11.png)
-![distribuidoras-mockups12.png](../assets/mock-ups/distribuidoras-mockups12.png)
-![distribuidoras-mockups13.png](../assets/mock-ups/distribuidoras-mockups13.png)
-![distribuidoras-mockups14.png](../assets/mock-ups/distribuidoras-mockups14.png)
-![distribuidoras-mockups15.png](../assets/mock-ups/distribuidoras-mockups15.png)
-![distribuidoras-mockups16.png](../assets/mock-ups/distribuidoras-mockups16.png)
-![distribuidoras-mockups17.png](../assets/mock-ups/distribuidoras-mockups17.png)
-![distribuidoras-mockups18.png](../assets/mock-ups/distribuidoras-mockups18.png)
-![distribuidoras-mockups19.png](../assets/mock-ups/distribuidoras-mockups19.png)
-![distribuidoras-mockups20.png](../assets/mock-ups/distribuidoras-mockups20.png)
-![distribuidoras-mockups21.png](../assets/mock-ups/distribuidoras-mockups21.png)
+![distribuidoras-mockups.png](./assets/mock-ups/distribuidoras-mockups.png)
+![distribuidoras-mockups2.png](./assets/mock-ups/distribuidoras-mockups2.png)
+![distribuidoras-mockups3.png](./assets/mock-ups/distribuidoras-mockups3.png)
+![distribuidoras-mockups4.png](./assets/mock-ups/distribuidoras-mockups4.png)
+![distribuidoras-mockups5.png](./assets/mock-ups/distribuidoras-mockups5.png)
+![distribuidoras-mockups6.png](./assets/mock-ups/distribuidoras-mockups6.png)
+![distribuidoras-mockups7.png](./assets/mock-ups/distribuidoras-mockups7.png)
+![distribuidoras-mockups8.png](./assets/mock-ups/distribuidoras-mockups8.png)
+![distribuidoras-mockups9.png](./assets/mock-ups/distribuidoras-mockups9.png)
+![distribuidoras-mockups10.png](./assets/mock-ups/distribuidoras-mockups10.png)
+![distribuidoras-mockups11.png](./assets/mock-ups/distribuidoras-mockups11.png)
+![distribuidoras-mockups12.png](./assets/mock-ups/distribuidoras-mockups12.png)
+![distribuidoras-mockups13.png](./assets/mock-ups/distribuidoras-mockups13.png)
+![distribuidoras-mockups14.png](./assets/mock-ups/distribuidoras-mockups14.png)
+![distribuidoras-mockups15.png](./assets/mock-ups/distribuidoras-mockups15.png)
+![distribuidoras-mockups16.png](./assets/mock-ups/distribuidoras-mockups16.png)
+![distribuidoras-mockups17.png](./assets/mock-ups/distribuidoras-mockups17.png)
+![distribuidoras-mockups18.png](./assets/mock-ups/distribuidoras-mockups18.png)
+![distribuidoras-mockups19.png](./assets/mock-ups/distribuidoras-mockups19.png)
+![distribuidoras-mockups20.png](./assets/mock-ups/distribuidoras-mockups20.png)
+![distribuidoras-mockups21.png](./assets/mock-ups/distribuidoras-mockups21.png)
 
 
 ## 4.4.3. Web Applications User Flow Diagrams.
 ### Segmento: Distribuidores
-![user-flow-distribuidor.png](../assets/images/user-flow-distribuidor.png)
+![user-flow-distribuidor.png](./assets/images/user-flow-distribuidor.png)
 ### Segmento: Empresas de gas
-![user-flow-empresas.png](../assets/images/user-flow-empresas.png)
+![user-flow-empresas.png](./assets/images/user-flow-empresas.png)
 
 
 ## 4.5. Web Applications Prototyping.
 ### Segmento empresas de gas:
-|![prototype-empresas.png](../assets/images/prototype-empresas.png)|
+|![prototype-empresas.png](./assets/images/prototype-empresas.png)|
 |-|
 |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB0gjWb60w1Rogd1knZcZSUAY_zvAS1VTWLfEl6_UW3BMA?e=PpYKRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
 
 ### Segmento distribuidores:
 
-| ![prototype-distribuidores.png](../assets/images/prototype-distribuidores.png)                                                                                                                                                                                                                                          |
+| ![prototype-distribuidores.png](./assets/images/prototype-distribuidores.png)                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQC6WVBYIt2aSrTXEeFnhB7LAeaqSso_WMAODU-PUErHvyY?e=nGFXCI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ### Mobile:
 
-|![Prototype-mobile.png](../assets/images/Prototype-mobile.png)|
+|![Prototype-mobile.png](./assets/images/Prototype-mobile.png)|
 |-|
 |https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQD113yxeYsURZm6zUEIMQsrAXUprQFP-wGfE9n8rRhLszM?e=ZGcwcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
 
@@ -1050,18 +1050,18 @@ Se incluyen capturas de la sesión en Miro que muestran:
 - Delimitación de bounded contexts  
 
 ## 4.6.2. Software Architecture Context Diagram.
-![diagrama-context.png](../assets/images/diagrama-context.png)
+![diagrama-context.png](./assets/images/diagrama-context.png)
 <br>
 Link: <br>
 https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
 ## 4.6.3. Software Architecture Container Diagrams.
-![container-diagram.png](../assets/images/container-diagram.png)
+![container-diagram.png](./assets/images/container-diagram.png)
 Link:<br>
 https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
 ## 4.6.4. Software Architecture Components Diagrams.
-![component-diagram.png](../assets/images/component-diagram.png)
-![component-view-diagram.png](../assets/images/component-view-diagram.png)
-![component-diagram3.png](../assets/images/component-diagram3.png)
+![component-diagram.png](./assets/images/component-diagram.png)
+![component-view-diagram.png](./assets/images/component-view-diagram.png)
+![component-diagram3.png](./assets/images/component-diagram3.png)
 
 Link: <br>
 https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
@@ -1070,13 +1070,13 @@ https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagra
 
 ## 4.7.1. Class Diagrams.
 
-![Class1.png](../assets/images/Class1.png)
+![Class1.png](./assets/images/Class1.png)
 
-![Class2.png](../assets/images/Class2.png)
+![Class2.png](./assets/images/Class2.png)
 
-![Class3.png](../assets/images/Class3.png)
+![Class3.png](./assets/images/Class3.png)
 
-![Class4.png](../assets/images/Class4.png)
+![Class4.png](./assets/images/Class4.png)
 
 ## 4.8. Database Design.
 ## 4.8.1. Database Diagrams.

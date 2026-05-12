@@ -14,7 +14,7 @@
 
 ### Trello
 
-<img src="../../report/assets/diagrams/trello.png">
+<img src="././/assets/diagrams/trello.png">
 
 **¿Por qué lo utilizamos?**  
 Lo utilizamos para organizar tareas del sprint, asignarlas a los integrantes, dar seguimiento al avance y visualizar qué estaba pendiente, en proceso o terminado.
@@ -23,14 +23,14 @@ Lo utilizamos para organizar tareas del sprint, asignarlas a los integrantes, da
 
 ### Miro
 
-![Tablero de Miro](../../report/assets/diagrams/miro.png)
+![Tablero de Miro](././/assets/diagrams/miro.png)
 
 **¿Por qué lo utilizamos?**  
 Lo utilizamos para crear diagramas y representar visualmente procesos o estructuras del proyecto, como flujos, mapas o diagramas de análisis.
 
 ### UXPressia
 
-![Artefactos en UXPressia](../../report/assets/diagrams/uxpressia.png)
+![Artefactos en UXPressia](././/assets/diagrams/uxpressia.png)
 
 **¿Por qué lo utilizamos?**  
 Usamos UXPressia porque nos permitió crear y organizar de forma visual artefactos de análisis de usuarios, como User Personas, Journey Maps e Impact Maps, facilitando que el equipo entendiera mejor a los segmentos objetivo y mantuviera una visión compartida del usuario durante el diseño del producto.
@@ -39,14 +39,14 @@ Usamos UXPressia porque nos permitió crear y organizar de forma visual artefact
 
 ### Figma
 
-![Diseños en Figma](../../report/assets/diagrams/figma.png)
+![Diseños en Figma](././/assets/diagrams/figma.png)
 
 **¿Por qué lo utilizamos?**  
 Lo utilizamos para crear y compartir los wireframes, mockups y propuestas visuales del producto antes de implementarlo. También ayudó a que el equipo tuviera una referencia común del diseño.
 
 ### LucidChart
 
-![Diagramas en LucidChart](../../report/assets/diagrams/lucidChart.png)
+![Diagramas en LucidChart](././/assets/diagrams/lucidChart.png)
 
 **¿Por qué lo utilizamos?**  
 Usamos LucidChart porque nos permitió elaborar de manera clara y colaborativa los diagramas y flujos del proyecto, ayudando al equipo a representar visualmente procesos, relaciones y estructuras necesarias para el análisis, diseño y organización de la solución.
@@ -67,7 +67,7 @@ Lo utilizamos para probar el funcionamiento del Landing Page, revisar la navegac
 
 ### GitHub
 
-![Repositorio en GitHub](../../report/assets/diagrams/github.png)
+![Repositorio en GitHub](././/assets/diagrams/github.png)
 
 **¿Por qué lo utilizamos?**  
 Lo utilizamos para guardar, organizar y controlar las versiones del código fuente del proyecto. También permitió que varios integrantes trabajaran sobre el mismo proyecto sin perder cambios, además de dejar evidencia de participación mediante commits, ramas y repositorios.
@@ -77,7 +77,7 @@ Lo utilizamos para guardar, organizar y controlar las versiones del código fuen
 GitFlow Implementation
 
 Para aplicar el flujo de trabajo GitFlow en nuestro control de versiones con Git, tomamos como referencia el artículo “A successful Git branching model” de Vincent Driessen. Esta fuente nos ayudó a definir las convenciones que seguiremos en la organización de ramas dentro del proyecto.
-![mana1.png](../assets/images/mana1.png)
+![mana1.png](./assets/images/mana1.png)
 
 # Branching Strategy & Coding Conventions
 
@@ -151,11 +151,11 @@ Como regla general, todo el código fuente estará redactado en **inglés** (var
 ## HTML
 
 
-![1.png](../assets/images/1.png)
+![1.png](./assets/images/1.png)
 
-![2.png](../assets/images/2.png)
+![2.png](./assets/images/2.png)
 
-![3.png](../assets/images/3.png)
+![3.png](./assets/images/3.png)
 
 # 5.2. Landing Page, Services & Applications Implementation
 

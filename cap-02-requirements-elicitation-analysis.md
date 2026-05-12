@@ -22,7 +22,7 @@ Esta etapa es fundamental en el desarrollo de nuestro sistema, ya que permite id
 
 ## Perfil
 
-|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="../../report/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="../../report/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="../../report/assets/images/.one-meter.png"> |
+|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="././/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="././/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="././/assets/images/.one-meter.png"> |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Perfil / Overview** | Plataforma web orientada a empresas envasadoras y distribuidores de balones de gas que permite gestionar inventario, distribución y cobranzas, además de mejorar la seguridad mediante monitoreo ambiental con sensores de gas en almacenes. | Plataforma basada en IoT que permite monitorear balones y tanques de gas en tiempo real, enfocada en el seguimiento del consumo, niveles de gas y optimización del abastecimiento. | Sistema inteligente que utiliza sensores para supervisar el nivel de gas y generar alertas de consumo, orientado a mejorar la disponibilidad del recurso en hogares e industrias mediante análisis de datos. | Plataforma empresarial que permite el seguimiento y control de activos de gas a gran escala mediante tecnologías como IoT y RFID, ofreciendo trazabilidad, geolocalización y análisis centralizado de operaciones. |
 | **Ventaja competitiva / Valor** | Ofrece una solución integral que combina gestión operativa con seguridad mediante monitoreo ambiental de gas en almacenes, todo centralizado en una aplicación web accesible y fácil de usar para empresas y distribuidores. | Su ventaja radica en el monitoreo en tiempo real del consumo y nivel de gas mediante sensores IoT, lo que permite optimizar el abastecimiento y evitar interrupciones en el suministro. | Ofrece como valor principal la predicción y control del consumo de gas a través de análisis de datos, facilitando alertas tempranas y una mejor planificación del uso del recurso. | Su ventaja competitiva es la capacidad de gestionar y supervisar grandes volúmenes de activos de gas con trazabilidad y geolocalización en tiempo real, orientado a operaciones de gran escala. |
@@ -30,14 +30,14 @@ Esta etapa es fundamental en el desarrollo de nuestro sistema, ya que permite id
 ## Perfil de Marketing
 
 
-|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="../../report/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="../../report/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="../../report/assets/images/.one-meter.png"> |
+|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="././/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="././/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="././/assets/images/.one-meter.png"> |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Mercado objetivo** | Empresas envasadoras de gas y distribuidores de balones de GLP, especialmente pequeñas y medianas empresas que necesitan mejorar su control de inventario, distribución, cobranzas y seguridad operativa. | Empresas de gas, industrias y organizaciones que buscan optimizar el abastecimiento mediante monitoreo del consumo y niveles de gas en tanques o cilindros. | Usuarios domésticos, comercios e industrias que desean controlar el consumo de gas y recibir alertas para una mejor gestión del suministro. | Grandes corporaciones del sector energético y empresas de distribución de gas que operan a gran escala y requieren soluciones avanzadas para la gestión y seguimiento de activos. |
 | **Estrategias de marketing** | Estrategia enfocada en un modelo B2B, con captación directa de clientes mediante demostraciones del sistema, visitas a distribuidores y alianzas con empresas del sector gas. Se complementa con presencia digital (redes, landing page) y un enfoque en mostrar ahorro de costos, control operativo y mejora en seguridad como propuesta de valor. | Estrategia basada en marketing tecnológico, destacando innovación IoT, automatización y eficiencia operativa. Utiliza canales digitales, demostraciones del producto y contenido técnico para atraer empresas interesadas en la transformación digital. | Estrategia mixta B2C y B2B, enfocada en resaltar comodidad, control del consumo y ahorro. Utiliza marketing digital, aplicaciones móviles y comunicación directa de beneficios al usuario final. | Estrategia corporativa dirigida a grandes empresas, basada en soluciones empresariales a medida, participación en ferias del sector energético y posicionamiento como proveedor tecnológico avanzado a nivel internacional. |
 
 ## Perfil de producto
 
-|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="../../report/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="../../report/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="../../report/assets/images/.one-meter.png"> |
+|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="././/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="././/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="././/assets/images/.one-meter.png"> |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Productos & Servicios** | Aplicación web para gestión de inventario, distribución y cobranzas, junto con monitoreo ambiental de gas en almacenes mediante sensores y alertas en tiempo real. | Plataforma IoT con sensores para monitoreo de niveles, consumo y estado del gas, con visualización de datos en tiempo real. | Sistema de monitoreo de gas con sensores inteligentes, alertas de nivel bajo y análisis de consumo accesible desde app o web. | Plataforma empresarial para gestión de activos de gas con IoT y RFID, incluyendo trazabilidad, geolocalización y análisis de datos. |
 | **Precios & Costos** | Regula utiliza un modelo SaaS basado en suscripción mensual, donde los clientes pagan por el acceso a la plataforma según su tamaño o uso. Adicionalmente, puede generar ingresos por servicios complementarios como implementación inicial y venta o integración de sensores de gas. | Opera con un modelo híbrido que combina la venta de dispositivos IoT (sensores) con suscripciones a una plataforma digital para monitoreo y gestión de datos. | Su modelo de negocio se basa en la comercialización de sensores inteligentes junto con el acceso a su sistema de monitoreo mediante suscripción, ofreciendo valor a través del análisis del consumo. | Funciona bajo un modelo empresarial que combina licencias de software, servicios personalizados e integración tecnológica, generalmente mediante contratos y suscripciones dirigidas a grandes compañías. |
@@ -48,7 +48,7 @@ Esta etapa es fundamental en el desarrollo de nuestro sistema, ya que permite id
 
 *Análisis FODA*
 
-|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="../../report/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="../../report/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="../../report/assets/images/.one-meter.png"> |
+|                       | **Regula (Startup)** | Competidor 1 – **IoT Smart Gas Platform** <br> <img src="././/assets/images/smart-gas.png">| Competidor 2 – **GasSense** <br> <img src="././/assets/images/gas-sense.png"> | Competidor 3 – **.one Meter** <br> <img src="././/assets/images/.one-meter.png"> |
 |-----------------------|----------------------------------|---------------------------------------------|--------------------------------|----------------------------------------|
 | **Fortalezas** | Solución integral que combina gestión operativa y seguridad, fácil de usar, accesible para PYMES y enfocada en necesidades reales del sector. | Monitoreo en tiempo real mediante IoT, automatización de datos y optimización del abastecimiento de gas. | Capacidad de análisis y predicción de consumo, con alertas inteligentes que mejoran la gestión del uso de gas. | Alta escalabilidad, trazabilidad de activos y gestión centralizada para operaciones de gran volumen. |
 | **Debilidades** | Marca nueva en el mercado, menor experiencia en el sector y dependencia de adopción tecnológica por parte de usuarios tradicionales. | Dependencia de hardware (sensores) que eleva costos iniciales y enfoque limitado al monitoreo del gas, sin cubrir procesos del negocio. | Enfoque centrado en consumo y no en la gestión operativa completa, con menor utilidad para distribuidores o empresas logísticas. | Alto costo y complejidad de implementación, orientado a grandes empresas, lo que dificulta su adopción en PYMES. |
@@ -241,7 +241,7 @@ Proporcionar atención personalizada, actualizaciones frecuentes y mejoras const
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-1-1 AW.png" alt="Entrevista a Eric Tello"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-1-1 AW.png" alt="Entrevista a Eric Tello"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -292,7 +292,7 @@ Proporcionar atención personalizada, actualizaciones frecuentes y mejoras const
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-1-2 AW.png" alt="Entrevista a Rafael Palacios"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-1-2 AW.png" alt="Entrevista a Rafael Palacios"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -347,7 +347,7 @@ Identifica como principales problemas las fugas de gas y el uso de cilindros ant
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-1-3 AW.png" alt="Entrevista a Maximiliano"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-1-3 AW.png" alt="Entrevista a Maximiliano"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -403,7 +403,7 @@ Presenta bajo nivel de conocimiento tecnológico y no utiliza sistemas digitales
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-2-1 AW.png" alt="Entrevista a Roberto Arriola"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-2-1 AW.png" alt="Entrevista a Roberto Arriola"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -457,7 +457,7 @@ Considera que las fugas provienen principalmente de válvulas de los clientes, l
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-2-2 AW.png" alt="Entrevista a Edgar Palacios"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-2-2 AW.png" alt="Entrevista a Edgar Palacios"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -514,7 +514,7 @@ En conjunto, representa un negocio pequeño pero estable, con procesos manuales 
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="../../report/assets/interviews/entrevista-2-3 AW.png" alt="Entrevista a Jesus Felices"></td>
+    <td><div align="center"><img src="././/assets/interviews/entrevista-2-3 AW.png" alt="Entrevista a Jesus Felices"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -936,7 +936,7 @@ Para diseñar una solución realmente útil, es fundamental entender a quién va
 Segmento Objetivo 1: Empresas de gas (productoras y distribuidoras a gran escala)
 
 <div align="center">
-    <img src="../../report/assets/diagrams/user-persona-Miguel-Hordoñez.png" alt="imagen user persona Miguel">
+    <img src="././/assets/diagrams/user-persona-Miguel-Hordoñez.png" alt="imagen user persona Miguel">
 </div>
 
 Miguel Hordoñez es un administrador de 58 años que trabaja en una empresa productora de gas, con amplia experiencia en la supervisión de operaciones de envasado y distribución. Su rol está más orientado a la gestión y control estratégico, manejando grandes volúmenes de balones y priorizando la seguridad, eficiencia y trazabilidad en todos los procesos.
@@ -949,7 +949,7 @@ Su principal objetivo es tener un control preciso del inventario y reducir pérd
 Segmento Objetivo 2: Distribuidores de gas (minoristas y puntos de venta)
 
 <div align="center">
-<img src="../../report/assets/diagrams/user-persona-Carlos-Mendoza .png" alt="imagen user persona Carlos">
+<img src="././/assets/diagrams/user-persona-Carlos-Mendoza .png" alt="imagen user persona Carlos">
 </div>
 
 Carlos Mendoza es un distribuidor independiente de balones de gas de 48 años, con más de 15 años de experiencia en el rubro. Maneja su negocio de forma autónoma, encargándose personalmente del inventario, las ventas y la distribución, basándose principalmente en su experiencia y en la relación de confianza con sus clientes.
@@ -996,12 +996,12 @@ En esta sección se presentan los User Journey Mapping, los cuales permiten visu
 
 **Segmento Objetivo 1: Empresas de gas (productoras y distribuidoras a gran escala)**
 
-![user-journey-map-1](../../report/assets/diagrams/Journey%20Map%20Miguel%20Hordoñez.png)
+![user-journey-map-1](././/assets/diagrams/Journey%20Map%20Miguel%20Hordoñez.png)
 
 
 **Segmento Objetivo 2: Distribuidores de gas (minoristas y puntos de venta)**
 
-![user-journey-map-2](../../report/assets/diagrams/Journey%20Map%20Carlos%20Mendoza.png)
+![user-journey-map-2](././/assets/diagrams/Journey%20Map%20Carlos%20Mendoza.png)
 
 <br>
 
@@ -1013,13 +1013,13 @@ Empathy Mapping es una herramienta que permite comprender de manera más profund
 
 <div align="center">
 
-![empathy-mapping-1](../../report/assets/diagrams/Empathy%20Mapping%20Miguel%20Hordoñez.png)
+![empathy-mapping-1](././/assets/diagrams/Empathy%20Mapping%20Miguel%20Hordoñez.png)
 
 </div>
 
 **Segmento 2: Distribuidoras de gas**
 
-![empathy-mapping-1](../../report/assets/diagrams/Empathy%20Mapping%20Carlos%20Mendoza%20(1).png)
+![empathy-mapping-1](././/assets/diagrams/Empathy%20Mapping%20Carlos%20Mendoza%20(1).png)
 
 
 
