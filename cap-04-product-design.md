@@ -1,3 +1,1086 @@
+# Capítulo IV: Product Design
+# 4.1. Style Guidelines
+
+## 4.1.1. General Style Guidelines
+
+La voz de Regula debe reflejar los valores del producto: seguridad, eficiencia y confianza. Cada mensaje, etiqueta, alerta o texto de interfaz debe estar alineado con los siguientes principios:
+
+- **Confiable y profesional:** Regula opera en contextos de alta responsabilidad (seguridad industrial, control de inventario, detección de fugas). El lenguaje debe transmitir solidez técnica y respaldo institucional, evitando ambigüedades.
+- **Claro y directo:** Los usuarios son operarios, supervisores y distribuidores con alta carga operativa. Los mensajes deben ser concisos, sin tecnicismos innecesarios. Las alertas y notificaciones deben ser inmediatamente comprensibles.
+- **Orientado a la acción:** Las instrucciones, botones y CTAs deben incitar a actuar de forma natural. Ejemplos: "Registrar entrada", "Ver alerta", "Confirmar entrega", "Monitorear almacén".
+- **Cercano pero no informal:** Regula habla de tú a tú con el usuario, reconociendo el contexto operativo de su trabajo. El tono no es corporativo frío ni coloquial excesivo; es empático y funcional.
+- **Enfocado en beneficios tangibles:** Los mensajes destacan resultados concretos: reducción de pérdidas, mayor seguridad, control de inventario en tiempo real, trazabilidad de repartos.
+
+---
+
+## Tipografía
+
+La tipografía de Regula prioriza la legibilidad funcional en pantalla, especialmente en contextos de trabajo donde los usuarios consultan información rápida de tableros, alertas y registros.
+
+### Familia tipográfica principal: Inter
+
+Inter es una fuente sans-serif diseñada específicamente para interfaces digitales. Ofrece excelente legibilidad a tamaños pequeños y medios, siendo ideal para dashboards, formularios y textos operativos.
+
+| Elemento | Fuente | Tamaño | Peso | Uso Principal |
+|---|---|---|---|---|
+| H1 – Título de página | Inter | 32px / 2rem | Bold 700 | Nombres de sección, pantalla principal del dashboard |
+| H2 – Subtítulo | Inter | 24px / 1.5rem | SemiBold 600 | Subtítulos de módulos, encabezados de tarjetas |
+| H3 – Encabezado | Inter | 20px / 1.25rem | SemiBold 600 | Títulos de widgets, tablas y formularios |
+| Body – Cuerpo | Inter | 16px / 1rem | Regular 400 | Textos descriptivos, párrafos, etiquetas de campo |
+| Small – Secundario | Inter | 14px / 0.875rem | Regular 400 | Metadatos, timestamps, textos de apoyo |
+| Caption – Pie | Inter | 12px / 0.75rem | Medium 500 | Leyendas de gráficas, tooltips, notas |
+| Label – CTA | Inter | 14–16px | Bold 700 | Botones de acción, badges de estado, alertas |
+
+### Fuente monoespaciada: JetBrains Mono
+
+Uso específico: Códigos de balón, IDs de operación, timestamps técnicos y datos de sensores IoT donde se requiere precisión visual.
+
+### Jerarquía visual
+
+- **Contraste de tamaño:** Los títulos deben ser al menos 1.5× el tamaño del cuerpo para generar jerarquía clara.
+- **Interlineado:** 1.5× el tamaño de fuente para cuerpo; 1.2× para títulos y etiquetas compactas.
+- **Longitud de línea:** Máximo 75 caracteres por línea para garantizar legibilidad óptima en pantalla.
+
+---
+
+## Colores
+
+| Color | Hex | Nombre | Uso |
+|---|---|---|---|
+| 🟠 | `#F26E22` | Naranja Activo | Botones CTA primarios, íconos de acción, highlights |
+| 🔶 | `#F25922` | Naranja Alerta | Alertas de fuga, estados críticos, indicadores de riesgo |
+| 🩶 | `#A5B1BF` | Gris Acero | Bordes, separadores, texto secundario, íconos inactivos |
+| ⬜ | `#F8F8FB` | Blanco Hielo | Fondo general, background de cards, superficie base |
+| ⬜ | `#FFFFFF` | Blanco Puro | Texto sobre fondos oscuros, iconografía en navy/naranja |
+| ⬛ | `#111111` | Negro Suave | Textos principales de alta legibilidad sobre fondo claro |
+| 🔘 | `#555F6E` | Gris Medio | Texto de cuerpo, etiquetas, metadatos |
+| 🔲 | `#E8ECF0` | Gris Claro | Fondos de filas alternas en tablas, separadores sutiles |
+
+### Descripción de colores
+
+- **Azul Marino Profundo (`#172D40`):** Color primario de marca. Transmite confianza, control y seriedad técnica. Se usa en header, sidebar, títulos principales y elementos de navegación. Es el color ancla de la identidad de Regula.
+- **Naranja Activo (`#F26E22`):** Acento principal de energía y acción. Representa dinamismo, urgencia positiva y visibilidad operativa. Ideal para botones CTA primarios, íconos destacados y elementos interactivos de primer nivel.
+- **Naranja Alerta (`#F25922`):** Variante más intensa del naranja. Se usa para alertas de mayor urgencia, indicadores de riesgo moderado-alto y estados activos críticos como detección de fuga o estado "en ruta".
+- **Gris Acero (`#A5B1BF`):** Color neutro frío. Complementa al azul marino en elementos secundarios: bordes, separadores, textos de apoyo, íconos inactivos y fondos de tarjetas neutras.
+- **Blanco Hielo (`#F8F8FB`):** Fondo principal de la interfaz. Proporciona limpieza visual, contraste suave y reduce la fatiga ocular en sesiones de trabajo prolongadas para un tono más respetuoso.
+
+---
+
+## Espaciado
+
+| Valor | Rem | Uso |
+|---|---|---|
+| 4px | 0.25rem | Espaciado mínimo entre elementos relacionados (íconos + texto, label + input) |
+| 8px | 0.5rem | Padding interno de badges, chips y etiquetas compactas |
+| 12px | 0.75rem | Espaciado entre líneas de texto en tarjetas y listas |
+| 16px | 1rem | Padding estándar de cards, campos de formulario y contenedores base |
+| 24px | 1.5rem | Separación entre secciones dentro de un módulo o tarjeta grande |
+| 32px | 2rem | Espacio entre tarjetas, widgets del dashboard y módulos principales |
+| 48–64px | 3–4rem | Margen entre secciones de página completa o bloques de contenido diferenciado |
+
+---
+
+## Layout
+
+### Principios de Layout
+
+- **Grid de 12 columnas:** Layout responsivo basado en 12 columnas con gutter de 16–24px. En móvil: 4 columnas; tablet: 8; escritorio: 12.
+- **Ancho máximo de contenido:** 1280px para contenedores de página completa. Centrado con márgenes laterales automáticos.
+- **Sidebar fijo:** Navegación lateral de 240–260px de ancho. Colapsable a 64px en modo compacto para mayor área de trabajo.
+- **Cards y tarjetas:** Border radius de 10–12px. Sombra suave: `box-shadow: 0 2px 8px rgba(23,45,64, 0.08)`. Sin bordes duros en fondos claros.
+- **Tablas de datos:** Filas de altura mínima 48px. Alternar filas entre `#FFFFFF` y `#F8F8FB`. Header de tabla en `#172D40` con texto blanco.
+- **Formularios:** Labels sobre los campos (no inline). Campos con `border: 1px solid #A5B1BF`. Focus state: border naranja (`#F26E22`) + sombra sutil.
+- **Jerarquía de información:** Seguir el patrón: título de sección → subtítulo → contenido → acciones secundarias. Nunca mezclar niveles de jerarquía en una misma área.
+
+---
+
+## Componentes
+
+### Botones
+
+- **Primario (CTA principal):** Fondo `#F26E22`, texto blanco, `border-radius: 8px`, padding `12×24px`. Hover: `#F25922`. Para acciones principales como "Registrar entrada", "Guardar", "Confirmar".
+- **Secundario:** Borde `1.5px #172D40`, texto `#172D40`, fondo transparente. Hover: fondo `#172D40` + texto blanco. Para acciones de soporte.
+- **Destructivo / Alerta:** Fondo `#EF4444`, texto blanco. Exclusivamente para eliminar, cancelar entrega o confirmar alerta crítica.
+- **Deshabilitado:** Fondo `#E8ECF0`, texto `#A5B1BF`. No clicable, `cursor: not-allowed`.
+
+### Badges y estados
+
+| Estado | Fondo | Texto | Uso |
+|---|---|---|---|
+| Operativo / Normal | `#DCFCE7` | `#15803D` | Balones en buen estado, almacén sin alertas |
+| En ruta / Activo | `#FEF3C7` | `#B45309` | Entregas en curso, sensores activos |
+| Alerta / Advertencia | `#F25922` | Blanco | Detecciones de gas, retrasos o anomalías |
+| Error / Crítico | `#FEE2E2` | `#DC2626` | Fugas confirmadas, pérdidas de conexión, balones descartados |
+
+### Alertas y notificaciones
+
+- **Estilo:** Banner en la parte superior de pantalla o panel lateral de notificaciones. Sin interrumpir el flujo de trabajo (no modales para alertas informativas).
+- **Urgencia alta (fuga detectada):** Banner rojo o naranja intenso con ícono de advertencia + texto breve + botón "Ver detalle". Sonido de alerta opcional en versión de escritorio.
+- **Urgencia media (inventario bajo):** Banner amarillo-naranja informativo. Puede descartarse manualmente.
+- **Urgencia baja (recordatorio):** Toast notification en esquina inferior derecha. Desaparece automáticamente en 5 segundos.
+
+---
+
+## Accesibilidad
+
+- **Contraste de texto:** Mínimo 4.5:1 para texto normal; 3:1 para texto grande (18px+ bold). El naranja (`#F26E22`) sobre blanco cumple este estándar.
+- **Contraste de componentes UI:** Mínimo 3:1 para bordes de campos, íconos funcionales y elementos interactivos.
+- **No solo color:** Nunca comunicar información únicamente mediante color. Acompañar siempre con ícono, texto o patrón (especialmente en alertas y estados de error).
+- **Tamaño de toque mínimo:** 44×44px para elementos interactivos en dispositivos táctiles (tablets de campo, móviles).
+- **Foco visible:** Estado focus claramente visible con outline naranja o borde grueso `#F26E22` de 2–3px. No eliminar el outline nativo sin reemplazarlo.
+- **Textos alternativos:** Todos los íconos funcionales y gráficos del dashboard deben tener atributo `aria-label` descriptivo.
+
+# 4.1.2. Web Style Guidelines
+
+## Dispositivos soportados
+
+| Dispositivo | Breakpoint | Columnas | Comportamiento |
+|---|---|---|---|
+| Mobile | < 640px | 4 columnas | Navegación hamburger, layout apilado, cards de ancho completo |
+| Tablet | 640–1023px | 8 columnas | Sidebar colapsable, cards en 2 columnas, navegación visible |
+| Desktop | 1024–1279px | 12 columnas | Layout completo, sidebar fija, cards en 3 columnas |
+| Wide | ≥ 1280px | 12 columnas | Ancho máximo 1280px centrado, márgenes laterales automáticos |
+
+- **Mobile-first:** Diseñar primero para móvil y agregar complejidad visual conforme aumenta el viewport.
+- **Navegación adaptativa:** Menú hamburger en móvil (< 640px); navegación horizontal completa en tablet y desktop.
+- **Imágenes responsivas:** Usar `srcset` y tamaños relativos. Nunca fijar anchos en píxeles absolutos para imágenes de contenido.
+- **Tipografía fluida:** Los tamaños de fuente escalan con el viewport usando `clamp()` o clases responsivas de utilidad.
+- **Touch targets:** Todo elemento interactivo debe tener mínimo 44×44px de área táctil en móvil.
+- **Dashboard en tablet:** El dashboard de métricas de gas en tiempo real se oculta o simplifica en móvil; se muestra completo en tablet y desktop.
+
+---
+
+## Comunicación con el usuario
+
+- **Confiable y profesional:** Qlic opera en contextos donde los datos son críticos (fugas, presión, temperatura). El lenguaje transmite solidez técnica sin ser frío o distante. Los usuarios confían en los datos porque el sistema habla con autoridad.
+- **Cercano y empático:** Se habla de tú a tú con el usuario. Se reconocen sus necesidades reales —prevenir desperdicios, evitar daños— y se les habla en consecuencia. Sin tecnicismos innecesarios.
+- **Claro y directo:** Evitar ambigüedades. Cada mensaje comunica una cosa. Las alertas son inmediatamente comprensibles: el usuario sabe qué pasó y qué hacer.
+- **Orientado a beneficios tangibles:** Los textos destacan resultados concretos para hogares (prevenir fugas) y negocios (auditorías, cumplimiento, reducción de costos).
+- **Sin jerga técnica en UI:** Términos como volumen o bar pueden aparecer en métricas, pero deben acompañarse de contexto (ej. indicadores de estado verde/amarillo/rojo) para que usuarios no técnicos también los entiendan.
+
+---
+
+## Tipografía
+
+| Elemento | Fuente | Tamaño | Peso | Line-height | Uso |
+|---|---|---|---|---|---|
+| Display / Hero | Poppins | 48–56px | 700 Bold | 1.1 | Título principal hero section |
+| H1 Página | Poppins | 36–40px | 700 Bold | 1.2 | Encabezados de sección principal |
+| H2 Sección | Poppins | 28–32px | 600 SemiBold | 1.3 | Subtítulos de sección y módulo |
+| H3 Card | Poppins | 20–24px | 600 SemiBold | 1.4 | Títulos de cards y widgets |
+| Body Large | Roboto | 18px | 400 Regular | 1.6 | Descripción hero y about us |
+| Body Base | Roboto | 16px | 400 Regular | 1.6 | Párrafos generales, contenido |
+| Body Small | Roboto | 14px | 400 Regular | 1.5 | Metadatos, etiquetas, pie de card |
+| Caption | Roboto | 12px | 400 Regular | 1.4 | Leyendas, tooltips, notas legales |
+| Button / Label | Poppins | 14–16px | 600 SemiBold | 1.0 | Botones CTA, badges, navegación |
+| Precio / Métrica | Poppins | 32–40px | 700 Bold | 1.1 | Planes de precios, métricas dashboard |
+
+---
+
+## Colores
+
+### Descripción de colores
+
+- **Azul Principal (`#0C4AFD`):** Color primario de marca. Transmite tecnología, confianza y precisión. Presente en el header, navegación, botones CTA generales, íconos de acción y elementos de identidad de marca.
+- **Azul Oscuro (`#0A1F6E`):** Para textos de alto contraste sobre fondos claros, títulos principales y elementos de marca de máxima jerarquía. Confiere seriedad y autoridad.
+- **Azul Medio (`#3B82F6`):** Versión accesible del azul para la mayoría de botones CTA interactivos: "Get Started", "Choose Plan", hover states y enlaces activos.
+- **Verde (`#22C55E`):** Color de acento para éxito y acción específica. Usado exclusivamente en el botón "Send" del formulario de contacto, el badge "Real-Time Water Monitoring", e indicadores de estado operativo normal.
+- **Negro (`#0F0F0F`):** Para títulos de sección, texto principal de máxima legibilidad y encabezados de alto impacto. Garantiza contraste AAA sobre fondos claros.
+- **Gris Oscuro (`#374151`):** Para cuerpo de texto general, párrafos, descripciones de cards y la mayoría del contenido textual de la plataforma.
+- **Gris Medio (`#6B7280`):** Para textos secundarios, metadatos, timestamps, textos de placeholder y contenido de menor jerarquía visual.
+- **Gris Claro (`#F3F4F6`):** Para fondos de sección alternos, filas pares en tablas, fondos de cards neutras y separadores visuales sutiles.
+- **Blanco (`#FFFFFF`):** Fondo principal de la plataforma, superficie de cards, modales y paneles. También para texto sobre fondos oscuros (header azul, botones primarios).
+
+### Paleta de colores
+
+| Color | Hex | Nombre | Rol | Uso Principal |
+|-|---|---|---|---|
+| | `#0C4AFD` | Azul Principal | Primario | Header, navegación, elementos de marca, badge activo |
+| | `#0A1F6E` | Azul Oscuro | Secundario | Títulos de sección, texto principal de alta jerarquía |
+| | `#3B82F6` | Azul Medio | CTA General | Botones: Get Started, Choose Plan, CTAs interactivos |
+| | `#22C55E` | Verde | Acento | Botón Send (formulario), badge Real-Time, estado normal |
+| | `#0F0F0F` | Negro | Texto | Títulos H1/H2, encabezados de sección, texto hero |
+|  | `#374151` | Gris Oscuro | Texto | Cuerpo de texto general, párrafos, descripciones |
+|  | `#6B7280` | Gris Medio | Secundario | Textos de apoyo, metadatos, placeholders, timestamps |
+|  | `#F3F4F6` | Gris Claro | Fondo | Secciones alternas, filas de tabla, fondos neutros |
+|  | `#F9FAFB` | Blanco Suave | Superficie | Fondo de cards, inputs, paneles de contenido |
+|  | `#FFFFFF` | Blanco Puro | Base | Fondo principal del sitio, modales, texto en oscuros |
+|  | `#E5E7EB` | Gris Borde | Neutro | Bordes de cards, inputs, divisores, separadores |
+|  | `#EFF6FF` | Azul Muy Claro | Fondo acento | Fondos de badges azules, highlights informativos |
+|  | `#F0FDF4` | Verde Muy Claro | Fondo acento | Fondo del badge en tiempo real |
+
+### Reglas de uso del color
+
+- **Un botón verde por página:** El verde (`#22C55E`) es exclusivo del botón "Send" del formulario de contacto y del badge de estado en tiempo real. No usar verde en otros botones o CTAs para mantener su significado semántico único.
+- **Azul como color dominante:** El azul en sus tres variantes (principal, oscuro, medio) es el color ancla de la marca. Debe estar presente en el header y navegación en toda la plataforma.
+- **Fondos alternativos:** Alternar entre fondo blanco (`#FFFFFF`) y gris muy claro (`#F3F4F6`) entre secciones de la landing para crear ritmo visual sin usar colores de marca en fondos grandes.
+- **Contraste mínimo WCAG AA:** Todo texto sobre fondo coloreado debe cumplir ratio mínimo 4.5:1. El texto blanco sobre azul principal (`#0C4AFD`) cumple este estándar.
+- **No usar colores fuera de paleta:** Ningún elemento de UI debe introducir colores no definidos en esta guía sin aprobación del equipo de diseño.
+
+---
+
+## Espaciado
+
+| Token | Valor px | Valor rem | Uso típico |
+|---|---|---|---|
+| space-1 | 4px | 0.25rem | Separación mínima entre ícono y texto inline |
+| space-2 | 8px | 0.5rem | Padding interno de badges, chips y tags |
+| space-3 | 12px | 0.75rem | Gap entre elementos de lista, íconos y labels en nav |
+| space-4 | 16px | 1rem | Padding estándar de cards, campos de formulario, contenedores |
+| space-6 | 24px | 1.5rem | Gap entre cards dentro de una sección, padding de sección pequeña |
+| space-8 | 32px | 2rem | Separación entre subsecciones, padding lateral de contenedores |
+| space-12 | 48px | 3rem | Margen entre secciones principales de la landing page |
+| space-16 | 64px | 4rem | Padding superior e inferior de secciones hero y de impacto |
+| space-24 | 96px | 6rem | Separación máxima entre bloques de contenido diferenciado |
+
+---
+
+## Botones
+
+- **Padding:** `12px 24px` (medium) · `10px 20px` (small) · `16px 32px` (large)
+- **Border-radius:** `8px` para todos los botones. Consistencia en toda la plataforma.
+- **Font:** Poppins SemiBold 600, 14–16px, `letter-spacing: 0.01em`
+- **Hover state:** Reducir opacidad al 90% o aclarar 10% el color base. Transición `150ms ease`.
+- **Focus state:** Outline `3px` con offset `2px` en el color del botón al 40% de opacidad. Nunca eliminar sin reemplazar.
+- **Loading state:** Spinner dentro del botón, texto cambia a "Cargando...", botón deshabilitado.
+
+
+### 4.2. Information Architecture.
+La Arquitectura de la Información de Regula se ha diseñado con el objetivo de organizar el contenido de manera clara, intuitiva y eficiente,
+permitiendo que tanto empresas de gas como distribuidores puedan acceder rápidamente a las funcionalidades clave del sistema. Dado que los
+usuarios presentan un bajo nivel de digitalización y están acostumbrados a procesos manuales, la estructura prioriza simplicidad, rapidez y
+visibilidad de la información crítica.
+
+## 4.2.1. Organization Systems
+
+* **Jerárquico:**
+  Se organiza de lo más importante (**seguridad operativa, detección de fugas de gas y CTA inicial**) hacia lo más detallado (**planes de suscripción, FAQ y contacto**).
+
+* **Secuencial:**
+  Sigue un recorrido natural:
+  **Qué es → Quiénes somos → Soluciones → Características → Precios → Contacto**.
+
+* **Por audiencia:**
+  Diferenciación clara entre:
+
+  * **Empresas envasadoras:** monitoreo de almacenes y control de balones.
+  * **Distribuidores:** gestión de inventario diario, repartos y cobranzas.
+
+* **Por funcionalidad:**
+  Agrupación de capacidades técnicas:
+
+  * Detección de fugas con sensores IoT
+  * Registro de entrada y salida de balones
+  * Seguimiento en tiempo real de entregas
+
+---
+
+### Estructura del Sitio
+
+| Tópico           | Definición                                                                                                                                     |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Home**         | Vista general de la plataforma, destacando monitoreo de fugas, control de inventario y seguimiento en tiempo real, junto con el CTA principal. |
+| **Solutions**    | Diferencia segmentos: empresas envasadoras (almacenes y alertas) y distribuidores (inventario, repartos y cobranzas).                          |
+| **Features**     | Capacidades técnicas: detección de fugas, registro de balones y tracking en tiempo real.                                                       |
+| **Pricing**      | Planes (Básico, Estándar, Premium) según necesidades operativas.                                                                               |
+| **Testimonials** | Opiniones de usuarios reales para generar confianza.                                                                                           |
+| **Contact**      | Canal directo para consultas y contacto con el equipo.                                                                                         |
+| **FAQ**          | Preguntas frecuentes sobre compatibilidad, conectividad IoT y alertas.                                                                         |
+
+---
+
+## 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Regula prioriza **simplicidad, claridad y familiaridad**, considerando usuarios con bajo nivel de digitalización.
+
+### Principios de etiquetado
+
+* **Uso de pocas palabras (máx. 2–3):**
+  Facilita lectura rápida y reduce carga cognitiva.
+
+* **Lenguaje natural del usuario:**
+  Ejemplo: *“Salida de balones”* en lugar de *“Despacho de inventario”*.
+
+* **Consistencia terminológica:**
+  Uso uniforme del término *“balón”* en todo el sistema.
+
+* **Enfoque en acción + objeto:**
+  Permite entender rápidamente cada opción.
+
+---
+
+### Etiquetas principales
+
+* Panel
+* Alertas
+* Entradas
+* Salidas
+* Stock
+* Repartos
+* Ventas
+* Deudas
+* Historial
+
+Estas representan funciones clave: **inventario, seguridad, distribución y operación**.
+
+---
+
+### Etiquetas secundarias
+
+* Registrar entrada
+* Registrar salida
+* Ver detalle
+* Marcar atendida
+* Asignar reparto
+* Actualizar estado
+* Filtrar
+* Buscar
+
+Uso de **verbos directos** para interacción intuitiva.
+
+---
+
+### Estados y alertas
+
+* Normal
+* Alerta
+* Fuga detectada
+* Pendiente
+* Atendida
+
+Permiten identificar rápidamente riesgos y tareas.
+
+---
+
+### Asociación de etiquetas
+
+* **Entradas / Salidas → Stock → Historial**
+  (control de inventario)
+
+* **Repartos → Ventas → Deudas**
+  (flujo comercial)
+
+* **Alertas → Panel**
+  (monitoreo y decisiones)
+
+---
+
+### Consistencia multiplataforma
+
+* Mismas etiquetas en web y móvil
+* Reconocimiento inmediato
+* Continuidad de uso
+
+---
+
+### Justificación
+
+* Usuarios usan lenguaje operativo simple
+* Baja familiaridad con sistemas complejos
+* Necesidad de rapidez en tareas
+
+---
+
+## 4.2.3. SEO Tags and Meta Tags
+
+* **Title:**
+  *Regula – Smart Gas Cylinder Monitoring and Management System*
+
+* **Description:**
+  Optimize the management of gas cylinders with IoT monitoring. Detect gas leaks in real time, control inventory, track deliveries, and improve safety and logistics through a centralized web platform.
+
+* **Keywords:**
+  Gas cylinder monitoring, gas leak detection, LPG management system, IoT gas sensors, gas inventory control, gas distribution tracking, real-time gas alerts, gas logistics platform
+
+---
+
+### Meta Tags
+
+* **Viewport:** width=device-width, initial-scale=1.0
+* **Charset:** UTF-8
+* **Author:** Scripters Team
+* **Robots:** index, follow
+* **Language:** en-US, es-ES
+
+
+## 4.2.4. Searching Systems
+
+### Navegación por categorías
+
+* Barra de navegación con acceso a módulos principales:
+  **Dashboard, Inventario, Alertas, Distribución, Reportes y Cobranzas**
+
+* Clasificación clara entre:
+
+  * Seguridad
+  * Control operativo
+  * Logística
+
+* Separación por roles:
+
+  * Empresa
+  * Distribuidor
+  * Supervisor
+
+Esto facilita el acceso según el tipo de usuario.
+
+---
+
+### Búsqueda por contenido
+
+* **Sección FAQ:**
+  Resuelve dudas sobre monitoreo de gas y uso de la plataforma.
+
+* **Buscador interno:**
+  Permite localizar registros de balones, entregas o alertas.
+
+* **Navegación anclada:**
+  Acceso rápido dentro del dashboard a módulos específicos.
+
+* **Historial filtrable:**
+  Filtros por:
+
+  * Fechas
+  * Estado del balón
+  * Tipo de incidente
+
+---
+
+## 4.2.5. Navigation Systems
+
+### Barra de navegación principal
+
+* Navegación horizontal fija (**sticky**) con acceso a todos los módulos
+* Acceso directo al **Dashboard general** con métricas clave
+* Botón destacado: **“Ver Alertas”** como acción prioritaria
+
+---
+
+### Botones de llamada a la acción (CTA)
+
+* **Dashboard:**
+
+  * “Ver Detalles”
+  * “Monitorear Ahora”
+
+* **Inventario:**
+
+  * “Registrar Entrada”
+  * “Registrar Salida”
+
+* **Distribución:**
+
+  * “Rastrear Entrega”
+
+* **Alertas:**
+
+  * “Atender Alerta”
+
+* **Formularios:**
+
+  * “Guardar”
+  * “Registrar”
+
+* **Uso de colores:**
+
+  * Rojo → Alertas
+  * Azul → Acciones principales
+  * Verde → Confirmaciones
+
+---
+
+### Footer Navigation
+
+* Enlaces organizados:
+  **Company, Support, Legal, Contact**
+
+* Acceso a:
+
+  * Soporte técnico
+  * Documentación
+  * Políticas
+
+* Información corporativa y copyright
+
+---
+
+### Elementos de confianza
+
+* Indicadores de seguridad:
+
+  * “Monitoreo en tiempo real”
+  * “Alertas automáticas activas”
+
+* Visualización de métricas:
+
+  * Número de alertas detectadas
+  * Reducción de pérdidas
+  * Eficiencia operativa
+
+* Historial verificable para auditoría
+
+* Transparencia en datos de:
+
+  * Inventario
+  * Distribución
+  * Seguridad
+
+
+# 4.3 Landing Page UI Design
+
+La landing page de **Regula** está diseñada siguiendo una estructura clara orientada a **User Experience (UX)** y **conversión**, comunicando la propuesta de valor del sistema de forma directa.
+
+---
+
+## Estructura principal
+
+### Hero Section
+- Título principal (*value proposition*)
+- Descripción breve del sistema
+- Botones CTA (*Call To Action*):
+  - “Get Started”
+  - “Learn More”
+- Imagen representativa del sistema (dashboard + IoT)
+
+---
+
+### Problem & Solution Section
+- Identificación de problemas:
+  - Fugas de gas
+  - Control manual
+  - Falta de trazabilidad
+- Presentación de la solución:
+  - Monitoreo en tiempo real
+  - Plataforma web centralizada
+
+---
+
+### Features Section
+Visualización en tarjetas (*cards UI*) de funcionalidades:
+- Monitoreo en tiempo real
+- Registro de inventario
+- Seguimiento de entregas (*tracking*)
+- Alertas automáticas
+
+---
+
+### Pricing Section
+- Planes:
+  - Básico
+  - Estándar
+  - Premium
+- Botones CTA:
+  - “Choose Plan”
+
+---
+
+### Contact Section
+- Formulario de contacto (*form UI*)
+- Botón:
+  - “Send” (captación de leads)
+
+---
+
+### Footer
+- Enlaces de navegación secundaria (*footer navigation*)
+- Información legal
+- Redes sociales
+
+---
+
+## Aspectos de diseño (UI/UX)
+
+- Diseño **responsive** (adaptable a mobile y desktop)
+- Navegación intuitiva (*user-friendly navigation*)
+- Uso de colores funcionales:
+  - Rojo → alertas
+  - Azul → acciones principales
+  - Verde → confirmaciones
+- Estructura basada en **jerarquía visual** (*visual hierarchy*) para facilitar la lectura
+
+### 4.3.1. Landing Page Wireframe.
+ <img src="././/assets/wireframes/lading-wireframe.png">
+
+### 4.3.2. Landing Page Mock-up.
+ <img src="././/assets/mock-ups/lading-mockup.png">
+
+## 4.4. Web Applications UX/UI Design
+
+El diseño UX/UI de la aplicación web de **Regula** está enfocado en facilitar el **control operativo, la supervisión de seguridad y la gestión de balones de gas** de forma rápida e intuitiva.
+
+---
+
+### Estructura de la Aplicación (UI)
+
+#### **Dashboard**
+
+* Vista principal con métricas clave (**KPIs**)
+* Visualización de alertas activas, inventario y estado general
+
+---
+
+#### **Módulo de Inventario**
+
+* Registro de entrada y salida de balones
+* Tabla de datos (*data table*) con filtros y búsqueda
+
+---
+
+#### **Módulo de Alertas**
+
+* Notificaciones en tiempo real (*real-time alerts*)
+* Clasificación por nivel de riesgo (prioridad)
+
+---
+
+#### **Módulo de Distribución**
+
+* Seguimiento de entregas (*tracking*)
+* Visualización de rutas y ubicación
+
+---
+
+#### **Módulo de Reportes**
+
+* Historial de movimientos
+* Generación de reportes para análisis
+
+---
+
+### Aspectos UX (User Experience)
+
+* **Interfaz intuitiva:**
+  Reduce la curva de aprendizaje
+
+* **Acceso rápido:**
+  Prioridad a funciones críticas (alertas y monitoreo)
+
+* **Eficiencia:**
+  Minimización de pasos en tareas frecuentes
+
+* **Feedback visual inmediato:**
+  Confirmaciones, errores y alertas en tiempo real
+
+---
+
+### Aspectos UI (User Interface)
+
+* **Diseño limpio:**
+  Jerarquía visual clara (*visual hierarchy*)
+
+* **Uso de colores funcionales:**
+
+  * Rojo → alertas críticas
+  * Amarillo → advertencias
+  * Verde → estados normales
+
+* **Componentes reutilizables:**
+  Botones, tablas, formularios
+
+* **Diseño responsive:**
+  Adaptable a distintos dispositivos
+
+---
+
+
+## 4.4.1. Web Applications Wireframes
+
+**Segmento: Empresas de gas**
+
+Los wireframes para este segmento están diseñados considerando usuarios como supervisores de planta y operadores de almacén, priorizando visibilidad de alertas y control de inventario.
+
+### Pantallas clave
+
+* **Dashboard principal:**
+  Panel con KPIs (alertas activas, nivel de inventario, estado de sensores).
+  Sección destacada para alertas críticas en tiempo real.
+
+* **Gestión de inventario:**
+  Vista tipo tabla con listado de balones.
+  Acciones rápidas: *Registrar entrada*, *Registrar salida*, *Filtrar*.
+
+* **Panel de alertas:**   
+  Lista de alertas clasificadas por prioridad.  
+  Botón principal: *“Atender alerta”*.
+
+* **Seguimiento operativo:**  
+  Vista de monitoreo de sensores y estado de almacén.
+
+* **Reportes:**   
+  Historial filtrable por fechas y tipo de evento.
+
+---
+
+### Características de los wireframes
+
+* Layout basado en **grid de 12 columnas**
+* Uso de **cards** para agrupar información
+* Sidebar fija para navegación principal
+* Priorización visual de alertas críticas
+* Componentes consistentes en toda la aplicación
+
+Estos wireframes buscan garantizar una experiencia clara, rápida y enfocada en la toma de decisiones operativas.
+
+#### Segmento: Empresas de gas
+
+ <img src="././/assets/wireframes/empresas-wireframes.png">
+<img src="././/assets/wireframes/empresas-wireframes2.png">
+ <img src="././/assets/wireframes/empresas-wireframes3.png">
+
+ <img src="././/assets/wireframes/empresas-wireframes4.png">
+
+ <img src="././/assets/wireframes/empresas-wireframes5.png">
+
+![empresas-wireframes6.png](./assets/wireframes/empresas-wireframes6.png)
+![empresas-wireframes7.png](./assets/wireframes/empresas-wireframes7.png)
+![empresas-wireframes8.png](./assets/wireframes/empresas-wireframes8.png)
+![empresas-wireframes9.png](./assets/wireframes/empresas-wireframes9.png)
+![empresas-wireframes10.png](./assets/wireframes/empresas-wireframes10.png)
+![empresas-wireframes11.png](./assets/wireframes/empresas-wireframes11.png)
+![empresas-wireframes12.png](./assets/wireframes/empresas-wireframes12.png)
+![empresas-wireframes13.png](./assets/wireframes/empresas-wireframes13.png)
+![empresas-wireframes14.png](./assets/wireframes/empresas-wireframes14.png)
+![empresas-wireframes15.png](./assets/wireframes/empresas-wireframes15.png)
+![empresas-wireframes16.png](./assets/wireframes/empresas-wireframes16.png)
+![empresas-wireframes17.png](./assets/wireframes/empresas-wireframes17.png)
+![empresas-wireframes18.png](./assets/wireframes/empresas-wireframes18.png)
+![empresas-wireframes19.png](./assets/wireframes/empresas-wireframes19.png)
+![empresas-wireframes20.png](./assets/wireframes/empresas-wireframes20.png)
+![empresas-wireframes21.png](./assets/wireframes/empresas-wireframes21.png)
+![empresas-wireframes22.png](./assets/wireframes/empresas-wireframes22.png)
+![empresas-wireframes23.png](./assets/wireframes/empresas-wireframes23.png)
+![empresas-wireframes24.png](./assets/wireframes/empresas-wireframes24.png)
+
+
+
+## Segmento: Distribuidores de gas
+
+![Distribuidores-wireframe1.png](./assets/wireframes/Distribuidores-wireframe1.png)
+![Distribuidores-wireframe2.png](./assets/wireframes/Distribuidores-wireframe2.png)
+![Distribuidores-wireframe3.png](./assets/wireframes/Distribuidores-wireframe3.png)
+![Distribuidores-wireframe4.png](./assets/wireframes/Distribuidores-wireframe4.png)
+![Distribuidores-wireframe5.png](./assets/wireframes/Distribuidores-wireframe5.png)
+![Distribuidores-wireframe6.png](./assets/wireframes/Distribuidores-wireframe6.png)
+![Distribuidores-wireframe7.png](./assets/wireframes/Distribuidores-wireframe7.png)
+![Distribuidores-wireframe8.png](./assets/wireframes/Distribuidores-wireframe8.png)
+![Distribuidores-wireframe9.png](./assets/wireframes/Distribuidores-wireframe9.png)
+![Distribuidores-wireframe10.png](./assets/wireframes/Distribuidores-wireframe10.png)
+![Distribuidores-wireframe11.png](./assets/wireframes/Distribuidores-wireframe11.png)
+![Distribuidores-wireframe12.png](./assets/wireframes/Distribuidores-wireframe12.png)
+![Distribuidores-wireframe13.png](./assets/wireframes/Distribuidores-wireframe13.png)
+![Distribuidores-wireframe14.png](./assets/wireframes/Distribuidores-wireframe14.png)
+![Distribuidores-wireframe15.png](./assets/wireframes/Distribuidores-wireframe15.png)
+![Distribuidores-wireframe16.png](./assets/wireframes/Distribuidores-wireframe16.png)
+![Distribuidores-wireframe17.png](./assets/wireframes/Distribuidores-wireframe17.png)
+![Distribuidores-wireframe18.png](./assets/wireframes/Distribuidores-wireframe18.png)
+![Distribuidores-wireframe19.png](./assets/wireframes/Distribuidores-wireframe19.png)
+![Distribuidores-wireframe20.png](./assets/wireframes/Distribuidores-wireframe20.png)
+![Distribuidores-wireframe21.png](./assets/wireframes/Distribuidores-wireframe21.png)
+![Distribuidores-wireframe22.png](./assets/wireframes/Distribuidores-wireframe22.png)
+![Distribuidores-wireframe23.png](./assets/wireframes/Distribuidores-wireframe23.png)
+![Distribuidores-wireframe24.png](./assets/wireframes/Distribuidores-wireframe24.png)
+![Distribuidores-wireframe25.png](./assets/wireframes/Distribuidores-wireframe25.png)
+![Distribuidores-wireframe26.png](./assets/wireframes/Distribuidores-wireframe26.png)
+
+### 4.4.2. Web Applications Wireflows.
+
+![Wireflow.png](./assets/images/Wireflow.png)
+https://lucid.app/lucidchart/36941ee2-c511-4d75-84d0-cb4f7b46c654/edit?viewport_loc=-11374%2C774%2C11877%2C6066%2C0_0&invitationId=inv_49f2cda5-2dfc-4742-8b7f-2a14653cd1d8
+<br>
+<br>
+https://lucid.app/lucidchart/c4739cbb-7f26-48d2-9cba-473b29620e93/edit?viewport_loc=-18807%2C-1983%2C18871%2C11499%2C0_0&invitationId=inv_d92080b0-8dc3-41d6-8c4f-2813e5dc9069
+
+### 4.4.3. Web Applications Mock-ups.
+#### Segmento: Empresa de gas
+![empresas-mockups.png](./assets/mock-ups/empresas-mockups.png)
+![empresas-mockups2.png](./assets/mock-ups/empresas-mockups2.png)
+![empresas-mockups3.png](./assets/mock-ups/empresas-mockups3.png)
+![empresas-mockups4.png](./assets/mock-ups/empresas-mockups4.png)
+![empresas-mockups5.png](./assets/mock-ups/empresas-mockups5.png)
+![empresas-mockups6.png](./assets/mock-ups/empresas-mockups6.png)
+![empresas-mockups7.png](./assets/mock-ups/empresas-mockups7.png)
+![empresas-mockups8.png](./assets/mock-ups/empresas-mockups8.png)
+![empresas-mockups9.png](./assets/mock-ups/empresas-mockups9.png)
+![empresas-mockups10.png](./assets/mock-ups/empresas-mockups10.png)
+![empresas-mockups11.png](./assets/mock-ups/empresas-mockups11.png)
+![empresas-mockups12.png](./assets/mock-ups/empresas-mockups12.png)
+![empresas-mockups13.png](./assets/mock-ups/empresas-mockups13.png)
+![empresas-mockups14.png](./assets/mock-ups/empresas-mockups14.png)
+![empresas-mockups15.png](./assets/mock-ups/empresas-mockups15.png)
+![empresas-mockups16.png](./assets/mock-ups/empresas-mockups16.png)
+![empresas-mockups17.png](./assets/mock-ups/empresas-mockups17.png)
+![empresas-mockups18.png](./assets/mock-ups/empresas-mockups18.png)
+![empresas-mockups19.png](./assets/mock-ups/empresas-mockups19.png)
+![empresas-mockups20.png](./assets/mock-ups/empresas-mockups20.png)
+![empresas-mockups21.png](./assets/mock-ups/empresas-mockups21.png)
+![empresas-mockups22.png](./assets/mock-ups/empresas-mockups22.png)
+![empresas-mockups23.png](./assets/mock-ups/empresas-mockups23.png)
+![empresas-mockups24.png](./assets/mock-ups/empresas-mockups24.png)
+![empresas-mockups25.png](./assets/mock-ups/empresas-mockups25.png)
+
+#### Segmento: Distribuidores de gas
+
+![distribuidoras-mockups.png](./assets/mock-ups/distribuidoras-mockups.png)
+![distribuidoras-mockups2.png](./assets/mock-ups/distribuidoras-mockups2.png)
+![distribuidoras-mockups3.png](./assets/mock-ups/distribuidoras-mockups3.png)
+![distribuidoras-mockups4.png](./assets/mock-ups/distribuidoras-mockups4.png)
+![distribuidoras-mockups5.png](./assets/mock-ups/distribuidoras-mockups5.png)
+![distribuidoras-mockups6.png](./assets/mock-ups/distribuidoras-mockups6.png)
+![distribuidoras-mockups7.png](./assets/mock-ups/distribuidoras-mockups7.png)
+![distribuidoras-mockups8.png](./assets/mock-ups/distribuidoras-mockups8.png)
+![distribuidoras-mockups9.png](./assets/mock-ups/distribuidoras-mockups9.png)
+![distribuidoras-mockups10.png](./assets/mock-ups/distribuidoras-mockups10.png)
+![distribuidoras-mockups11.png](./assets/mock-ups/distribuidoras-mockups11.png)
+![distribuidoras-mockups12.png](./assets/mock-ups/distribuidoras-mockups12.png)
+![distribuidoras-mockups13.png](./assets/mock-ups/distribuidoras-mockups13.png)
+![distribuidoras-mockups14.png](./assets/mock-ups/distribuidoras-mockups14.png)
+![distribuidoras-mockups15.png](./assets/mock-ups/distribuidoras-mockups15.png)
+![distribuidoras-mockups16.png](./assets/mock-ups/distribuidoras-mockups16.png)
+![distribuidoras-mockups17.png](./assets/mock-ups/distribuidoras-mockups17.png)
+![distribuidoras-mockups18.png](./assets/mock-ups/distribuidoras-mockups18.png)
+![distribuidoras-mockups19.png](./assets/mock-ups/distribuidoras-mockups19.png)
+![distribuidoras-mockups20.png](./assets/mock-ups/distribuidoras-mockups20.png)
+![distribuidoras-mockups21.png](./assets/mock-ups/distribuidoras-mockups21.png)
+
+
+## 4.4.3. Web Applications User Flow Diagrams.
+### Segmento: Distribuidores
+![user-flow-distribuidor.png](./assets/images/user-flow-distribuidor.png)
+### Segmento: Empresas de gas
+![user-flow-empresas.png](./assets/images/user-flow-empresas.png)
+
+
+## 4.5. Web Applications Prototyping.
+### Segmento empresas de gas:
+|![prototype-empresas.png](./assets/images/prototype-empresas.png)|
+|-|
+|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQB0gjWb60w1Rogd1knZcZSUAY_zvAS1VTWLfEl6_UW3BMA?e=PpYKRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+
+### Segmento distribuidores:
+
+| ![prototype-distribuidores.png](./assets/images/prototype-distribuidores.png)                                                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQC6WVBYIt2aSrTXEeFnhB7LAeaqSso_WMAODU-PUErHvyY?e=nGFXCI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+
+### Mobile:
+
+|![Prototype-mobile.png](./assets/images/Prototype-mobile.png)|
+|-|
+|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a649_upc_edu_pe/IQD113yxeYsURZm6zUEIMQsrAXUprQFP-wGfE9n8rRhLszM?e=ZGcwcj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
+
+
+# 4.6. Domain-Driven Software Architecture
+
+## 4.6.1. Design-Level EventStorming
+
+### Introducción
+El Design-Level EventStorming se realizó con el objetivo de refinar el modelo del dominio del sistema **Regula**, pasando de una visión general (Big Picture) a un nivel de detalle orientado a diseño, siguiendo principios de Domain-Driven Design (DDD).
+
+Esta sesión permitió profundizar en los procesos críticos del negocio, identificando eventos, comandos, reglas de negocio y estructuras internas del sistema, con el fin de construir una base sólida para la implementación.
+
+La sesión tuvo una duración aproximada de **1.5 horas**, cumpliendo con la recomendación de concentrar esfuerzos sin extender innecesariamente el proceso.
+
+Se utilizó la herramienta **Miro** para modelar colaborativamente el flujo completo.
+
+---
+
+### Objetivo del Design-Level EventStorming
+El propósito principal fue:
+
+- Refinar los *bounded contexts* identificados previamente
+- Modelar procesos complejos del negocio con mayor detalle
+- Traducir procesos reales a estructuras de software (DDD)
+- Servir como puente entre análisis y desarrollo
+
+Este tipo de EventStorming se enfoca en:
+
+- Subdominios críticos
+- Lógica de negocio compleja
+- Preparación para implementación
+
+---
+
+### Agenda de la sesión
+
+#### 1. Definición del alcance
+Se seleccionaron los procesos más críticos:
+
+- Monitoreo de fugas (core)
+- Inventario de balones (core)
+- Distribución (core)
+- Cobranzas (soporte)
+
+---
+
+#### 2. Identificación de Domain Events
+Se definieron los eventos que representan hechos importantes del sistema:
+
+- Gas Leak Detected
+- Alert Generated
+- Cylinder Entered Inventory
+- Cylinder Exited Inventory
+- Delivery Assigned
+- Payment Received
+
+---
+
+#### 3. Definición de Commands
+Se agregaron los comandos que generan los eventos:
+
+- Detect Gas → Gas Leak Detected
+- Register Entry → Cylinder Entered Inventory
+- Assign Delivery → Delivery Assigned
+- Register Payment → Payment Received
+
+---
+
+#### 4. Identificación de Actores
+Se definieron los responsables de ejecutar los comandos:
+
+- Supervisor
+- Administrador
+- Distribuidor
+- Repartidor
+- Sistema IoT (externo)
+
+---
+
+#### 5. Definición de Policies
+Se modelaron automatizaciones del sistema:
+
+- Si ocurre **Gas Leak Detected** → generar **Alert Generated**
+- Si ocurre **Payment Received** → actualizar deuda
+- Si ocurre **Delivery Delayed** → notificar supervisor
+
+---
+
+#### 6. Identificación de Aggregates
+Se agruparon eventos y reglas en agregados:
+
+- Inventory
+- Safety
+- Delivery
+- Billing
+
+Esto permitió organizar la lógica del sistema y mantener consistencia.
+
+---
+
+#### 7. Read Models y UX
+Se definieron vistas que el usuario necesita:
+
+- Dashboard principal (alertas + stock)
+- Lista de entregas en tiempo real
+- Historial de movimientos de balones
+- Vista de deudas por cliente
+
+También se relacionaron con mockups previamente diseñados.
+
+---
+
+#### 8. Sistemas externos
+Se identificaron integraciones:
+
+- Sensores IoT → detección de gas
+- GPS → seguimiento de vehículos
+
+---
+
+#### 9. Reglas de negocio
+Se definieron reglas clave:
+
+- Un balón defectuoso no puede ser vendido
+- Una alerta debe ser atendida antes de cerrarse
+- No se puede registrar salida sin stock disponible
+
+---
+
+### Bounded Contexts
+
+Se reorganizó el sistema en subdominios siguiendo arquitectura SaaS:
+
+#### Core Domains
+- Service Execution and Monitoring (monitoreo de fugas y alertas)
+- Resource and Asset Management (gestión de balones e inventario)
+- Service Design and Planning (distribución y logística)
+
+#### Supporting Domains
+- Dashboard and Analytics
+- Subscriptions and Payment Management
+- Loyalty and Engagement (cobranzas y clientes)
+
+#### Generic Domains
+- Identity and Access Management
+- Profiles and Preferences Management
+
+---
+
+### Highlighted Core
+
+Se identificaron los subdominios más críticos:
+
+- Monitoreo de fugas (Safety)
+- Control de inventario (Inventory)
+- Distribución (Delivery)
+
+Estos representan la principal ventaja competitiva del sistema.
+
+---
+
+### Resultados de la sesión
+
+La sesión permitió:
+
+- Refinar el modelo del dominio con alto nivel de detalle
+- Identificar claramente responsabilidades del sistema
+- Reducir ambigüedad en procesos
+- Definir base para arquitectura y desarrollo
+
+Además, se logró una comprensión compartida del dominio entre todos los integrantes del equipo.
+
+---
+
+### Evidencia
+
+Se incluyen capturas de la sesión en Miro que muestran:
+
+- Flujo completo de eventos
+- Relación entre comandos y actores
+- Agrupación en agregados
+- Delimitación de bounded contexts
+
+## 4.6.2. Software Architecture Context Diagram.
+![diagrama-context.png](./assets/images/diagrama-context.png)
+<br>
+Link: <br>
+https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
+## 4.6.3. Software Architecture Container Diagrams.
+![container-diagram.png](./assets/images/container-diagram.png)
+Link:<br>
+https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
+## 4.6.4. Software Architecture Components Diagrams.
+![component-diagram.png](./assets/images/component-diagram.png)
+![component-view-diagram.png](./assets/images/component-view-diagram.png)
+![component-diagram3.png](./assets/images/component-diagram3.png)
+
+Link: <br>
+https://structurizr.com/share/109729/935f605e-466e-438b-b68b-277666085c50/diagrams#AnaliticaYGestionOperativaComponent
+
+## 4.7. Software Object-Oriented Design.
+
+## 4.7.1. Class Diagrams.
+
+![Class1.png](./assets/images/Class1.png)
+
+![Class2.png](./assets/images/Class2.png)
+
+![Class3.png](./assets/images/Class3.png)
+
+![Class4.png](./assets/images/Class4.png)
+
+## 4.8. Database Design.
+## 4.8.1. Database Diagrams.
+
 # Chapter IV: Product Design
 
 # 4.1. Style Guidelines
@@ -263,15 +1346,15 @@ Regula’s Information Architecture has been designed with the goal of organizin
 * **By audience:**
   Clear differentiation between:
 
-    * **Gas bottling companies:** warehouse monitoring and cylinder control.
-    * **Distributors:** daily inventory management, deliveries, and collections.
+  * **Gas bottling companies:** warehouse monitoring and cylinder control.
+  * **Distributors:** daily inventory management, deliveries, and collections.
 
 * **By functionality:**
   Grouping of technical capabilities:
 
-    * Gas leak detection with IoT sensors
-    * Gas cylinder entry and exit registration
-    * Real-time delivery tracking
+  * Gas leak detection with IoT sensors
+  * Gas cylinder entry and exit registration
+  * Real-time delivery tracking
 
 ---
 
@@ -413,15 +1496,15 @@ Allow users to quickly identify risks and tasks.
 
 * Clear classification between:
 
-    * Safety
-    * Operational control
-    * Logistics
+  * Safety
+  * Operational control
+  * Logistics
 
 * Separation by roles:
 
-    * Company
-    * Distributor
-    * Supervisor
+  * Company
+  * Distributor
+  * Supervisor
 
 This facilitates access according to the user type.
 
@@ -441,9 +1524,9 @@ This facilitates access according to the user type.
 * **Filterable History:**
   Filters by:
 
-    * Dates
-    * Cylinder status
-    * Incident type
+  * Dates
+  * Cylinder status
+  * Incident type
 
 ---
 
@@ -461,32 +1544,32 @@ This facilitates access according to the user type.
 
 * **Dashboard:**
 
-    * “View Details”
-    * “Monitor Now”
+  * “View Details”
+  * “Monitor Now”
 
 * **Inventory:**
 
-    * “Register Entry”
-    * “Register Exit”
+  * “Register Entry”
+  * “Register Exit”
 
 * **Distribution:**
 
-    * “Track Delivery”
+  * “Track Delivery”
 
 * **Alerts:**
 
-    * “Handle Alert”
+  * “Handle Alert”
 
 * **Forms:**
 
-    * “Save”
-    * “Register”
+  * “Save”
+  * “Register”
 
 * **Color usage:**
 
-    * Red → Alerts
-    * Blue → Main actions
-    * Green → Confirmations
+  * Red → Alerts
+  * Blue → Main actions
+  * Green → Confirmations
 
 ---
 
@@ -497,9 +1580,9 @@ This facilitates access according to the user type.
 
 * Access to:
 
-    * Technical support
-    * Documentation
-    * Policies
+  * Technical support
+  * Documentation
+  * Policies
 
 * Corporate information and copyright
 
@@ -509,22 +1592,22 @@ This facilitates access according to the user type.
 
 * Security indicators:
 
-    * “Real-time monitoring”
-    * “Automatic alerts active”
+  * “Real-time monitoring”
+  * “Automatic alerts active”
 
 * Metrics visualization:
 
-    * Number of detected alerts
-    * Reduction of losses
-    * Operational efficiency
+  * Number of detected alerts
+  * Reduction of losses
+  * Operational efficiency
 
 * Verifiable history for auditing
 
 * Transparency in data related to:
 
-    * Inventory
-    * Distribution
-    * Safety
+  * Inventory
+  * Distribution
+  * Safety
 
 
 # 4.3. Landing Page UI Design
@@ -539,20 +1622,20 @@ The landing page of **Regula** is designed following a clear structure focused o
 - Main title (*value proposition*)
 - Brief system description
 - CTA buttons (*Call To Action*):
-    - “Get Started”
-    - “Learn More”
+  - “Get Started”
+  - “Learn More”
 - Representative image of the system (dashboard + IoT)
 
 ---
 
 ### Problem & Solution Section
 - Identification of problems:
-    - Gas leaks
-    - Manual control
-    - Lack of traceability
+  - Gas leaks
+  - Manual control
+  - Lack of traceability
 - Presentation of the solution:
-    - Real-time monitoring
-    - Centralized web platform
+  - Real-time monitoring
+  - Centralized web platform
 
 ---
 
@@ -567,18 +1650,18 @@ Visualization in UI cards (*cards UI*) of functionalities:
 
 ### Pricing Section
 - Plans:
-    - Basic
-    - Standard
-    - Premium
+  - Basic
+  - Standard
+  - Premium
 - CTA buttons:
-    - “Choose Plan”
+  - “Choose Plan”
 
 ---
 
 ### Contact Section
 - Contact form (*form UI*)
 - Button:
-    - “Send” (lead generation)
+  - “Send” (lead generation)
 
 ---
 
@@ -594,9 +1677,9 @@ Visualization in UI cards (*cards UI*) of functionalities:
 - **Responsive** design (adaptable to mobile and desktop)
 - Intuitive navigation (*user-friendly navigation*)
 - Use of functional colors:
-    - Red → alerts
-    - Blue → primary actions
-    - Green → confirmations
+  - Red → alerts
+  - Blue → primary actions
+  - Green → confirmations
 - Structure based on **visual hierarchy** to facilitate reading
 
 ### 4.3.1. Landing Page Wireframe
@@ -672,9 +1755,9 @@ The UX/UI design of the **Regula** web application is focused on facilitating **
 
 * **Use of functional colors:**
 
-    * Red → critical alerts
-    * Yellow → warnings
-    * Green → normal states
+  * Red → critical alerts
+  * Yellow → warnings
+  * Green → normal states
 
 * **Reusable components:**
   Buttons, tables, forms
@@ -745,7 +1828,7 @@ These wireframes aim to ensure a clear, fast, and decision-oriented operational 
 ![company-wireframes21.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-21.png)
 ![company-wireframes22.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-22.png)
 ![company-wireframes23.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-23.png)
-![company-wireframes24.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-24.pngg)
+![company-wireframes24.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-24.png)
 ![company-wireframes25.png](./assets/images/cap-04/web-application/wireframes/company/company-wireframes-25.png)
 
 ---
